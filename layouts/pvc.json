@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4448515998886649,
+    "zoomFactor": 0.44485159988866513,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,11 +27,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 256,
+      "height": 160,
       "layer": "",
       "name": "Ground",
       "persistentUuid": "76de35a5-4eac-4397-86b6-1a2c59dd693a",
-      "width": 2144,
+      "width": 1856,
       "x": 0,
       "y": 832,
       "zOrder": 1,
@@ -46,7 +46,7 @@
       "layer": "",
       "name": "Ground",
       "persistentUuid": "7834a437-92d4-4f25-b1b6-19a583edffea",
-      "width": 1120,
+      "width": 480,
       "x": 1024,
       "y": 704,
       "zOrder": 2,
@@ -61,7 +61,7 @@
       "layer": "",
       "name": "Ground",
       "persistentUuid": "2762acb7-70e0-4e30-b7eb-50fbb39580b4",
-      "width": 608,
+      "width": 576,
       "x": 0,
       "y": 0,
       "zOrder": 3,
@@ -92,8 +92,8 @@
       "name": "Ball",
       "persistentUuid": "58f7e184-e31e-424a-a3a5-13c1c71986ab",
       "width": 32,
-      "x": 1632,
-      "y": 672,
+      "x": 800,
+      "y": 768,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -136,8 +136,8 @@
       "layer": "",
       "name": "Ground",
       "persistentUuid": "a6b53972-046e-4d93-a48a-5c5ac028b9ef",
-      "width": 320,
-      "x": 608,
+      "width": 352,
+      "x": 576,
       "y": 0,
       "zOrder": 9,
       "numberProperties": [],
@@ -162,13 +162,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 384,
+      "height": 608,
       "layer": "",
       "name": "Ground",
       "persistentUuid": "302fda1c-8cf1-442e-bb89-97be8edbf52d",
       "width": 288,
       "x": 1856,
-      "y": 320,
+      "y": 224,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -182,7 +182,7 @@
       "name": "Ball",
       "persistentUuid": "14345cb9-0acc-4196-945f-3d66d7ad9f24",
       "width": 32,
-      "x": 96,
+      "x": 128,
       "y": 704,
       "zOrder": 5,
       "numberProperties": [],
@@ -197,8 +197,8 @@
       "name": "Ball",
       "persistentUuid": "0b2edb07-09e8-4b8d-8d8d-d41da61eff9b",
       "width": 32,
-      "x": 896,
-      "y": 800,
+      "x": 1696,
+      "y": 736,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -207,26 +207,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "e34c1894-2f01-4755-a520-2f81e7ffbd4a",
-      "width": 288,
-      "x": 1216,
-      "y": 608,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
+      "height": 224,
       "layer": "",
       "name": "Ground",
       "persistentUuid": "78d708f1-69bd-41e5-b7ad-705e609805de",
-      "width": 640,
+      "width": 32,
       "x": 1216,
       "y": 320,
       "zOrder": 16,
@@ -241,25 +226,10 @@
       "layer": "",
       "name": "Ground",
       "persistentUuid": "d079b76b-632c-450b-bb14-00ffd92800a1",
-      "width": 1216,
-      "x": 928,
+      "width": 736,
+      "x": 1408,
       "y": 0,
       "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 96,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "b3caa480-d104-4511-bd6c-76a30074284f",
-      "width": 928,
-      "x": 1216,
-      "y": 224,
-      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -272,7 +242,7 @@
       "name": "Goal",
       "persistentUuid": "310e02ec-9ccb-4149-af30-a38246c0f685",
       "width": 64,
-      "x": 608,
+      "x": 576,
       "y": 480,
       "zOrder": 22,
       "numberProperties": [],
@@ -302,7 +272,7 @@
       "name": "NpcScore",
       "persistentUuid": "9cee8b59-d9f6-49b0-abbb-c97e1f728a59",
       "width": 0,
-      "x": 448,
+      "x": 416,
       "y": 448,
       "zOrder": 24,
       "numberProperties": [],
@@ -350,6 +320,156 @@
       "x": 504,
       "y": 712,
       "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Goal",
+      "persistentUuid": "b1affa30-b434-4aa3-86d7-8ccb80150017",
+      "width": 64,
+      "x": 1152,
+      "y": 352,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "9c30539a-6612-4ae3-a6bf-82aec17d93be",
+      "width": 64,
+      "x": 864,
+      "y": 320,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "75d18609-074f-495c-b281-02b06cdc9ad8",
+      "width": 352,
+      "x": 1504,
+      "y": 768,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "9235174d-e45d-4948-8dd1-b51e11939563",
+      "width": 288,
+      "x": 1856,
+      "y": 832,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 192,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "cc825362-0566-497d-bc2e-69f07dc2fae9",
+      "width": 288,
+      "x": 1856,
+      "y": 896,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "b6b5f308-f010-4d13-b902-4e0df4029548",
+      "width": 1856,
+      "x": 0,
+      "y": 992,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "e75478b8-54a7-45f7-822a-af0e7946d88d",
+      "width": 160,
+      "x": 736,
+      "y": 800,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 192,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "0e74a518-c91f-4328-80b6-381730e2da0e",
+      "width": 448,
+      "x": 1408,
+      "y": 224,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "a072802d-839c-4901-8750-a6967ad03f1d",
+      "width": 224,
+      "x": 1632,
+      "y": 416,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "4dce7e54-2da5-4f20-ab2d-a4f112ead637",
+      "width": 480,
+      "x": 928,
+      "y": 0,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -486,7 +606,7 @@
           "bullet": false,
           "fixedRotation": true,
           "canSleep": true,
-          "shape": "Box",
+          "shape": "Circle",
           "shapeDimensionA": 0,
           "shapeDimensionB": 0,
           "shapeOffsetX": 0,
@@ -494,7 +614,7 @@
           "polygonOrigin": "Center",
           "vertices": [],
           "density": 1,
-          "friction": 0.3,
+          "friction": 0.5,
           "restitution": 0.1,
           "linearDamping": 0.1,
           "angularDamping": 0.1,
@@ -505,7 +625,7 @@
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -514,7 +634,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "NewSprite2",
                   "points": [],
                   "originPoint": {
@@ -528,7 +648,107 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 2
+                      },
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 10
+                      },
+                      {
+                        "x": 2,
+                        "y": 10
+                      },
+                      {
+                        "x": 0,
+                        "y": 8
+                      },
+                      {
+                        "x": 0,
+                        "y": 2
+                      },
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Solar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Default.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 2
+                      },
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 10
+                      },
+                      {
+                        "x": 2,
+                        "y": 10
+                      },
+                      {
+                        "x": 0,
+                        "y": 8
+                      },
+                      {
+                        "x": 0,
+                        "y": 2
+                      },
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -620,7 +840,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite4",
+                  "image": "NewSprite12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -640,16 +860,16 @@
                         "y": 5
                       },
                       {
-                        "x": 10,
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 10,
-                        "y": 10
+                        "x": 11,
+                        "y": 11
                       },
                       {
                         "x": 0,
-                        "y": 10
+                        "y": 11
                       }
                     ]
                   ]
@@ -773,179 +993,105 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Basic Movement",
-          "comment2": ""
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateLeftKey"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateRightKey"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Up"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateJumpKey"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Player",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "\"Right\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Player",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Throwing",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Ball",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "BuiltinCommonInstructions::Or"
               },
               "parameters": [],
               "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "Playermode",
+                    "=",
+                    "\"Local\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "Playermode",
+                    "=",
+                    "\"VsCPU\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Basic Movement",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
                     "value": "KeyPressed"
@@ -954,163 +1100,334 @@
                     "",
                     "Up"
                   ]
-                },
+                }
+              ],
+              "actions": [
                 {
                   "type": {
-                    "value": "KeyPressed"
+                    "value": "PlatformBehavior::SimulateJumpKey"
                   },
                   "parameters": [
-                    "",
-                    "Down"
+                    "Player",
+                    "PlatformerObject"
                   ]
                 }
               ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Ball",
-                "=",
-                "Player.X()",
-                "=",
-                "Player.Y() - 25"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Ball",
-                "",
-                "",
-                ""
-              ]
             },
             {
-              "type": {
-                "value": "FlippedX"
-              },
-              "parameters": [
-                "Player"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "KeyReleased"
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
                   },
                   "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Throwing",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Ball",
                     "",
-                    "Up"
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::Gravity"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "1500"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Ball",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::Gravity"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "1000"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Ball",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "KeyReleased"
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Up"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Down"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
                   },
                   "parameters": [
-                    "",
-                    "Down"
+                    "Ball",
+                    "=",
+                    "Player.X()",
+                    "=",
+                    "Player.Y() - 25"
                   ]
                 }
               ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Physics2::ApplyForce"
-              },
-              "parameters": [
-                "Ball",
-                "Physics2",
-                "-50",
-                "-50",
-                "Player.X()",
-                "Player.Y()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Ball",
-                "",
-                "",
-                ""
-              ]
             },
             {
-              "type": {
-                "inverted": true,
-                "value": "FlippedX"
-              },
-              "parameters": [
-                "Player"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "KeyReleased"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
+                    "Player",
+                    "Ball",
                     "",
-                    "Up"
+                    "",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "KeyReleased"
+                    "value": "FlippedX"
                   },
                   "parameters": [
-                    "",
-                    "Down"
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Up"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Down"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyForce"
+                  },
+                  "parameters": [
+                    "Ball",
+                    "Physics2",
+                    "-50",
+                    "-50",
+                    "Player.X()",
+                    "Player.Y()"
                   ]
                 }
               ]
-            }
-          ],
-          "actions": [
+            },
             {
-              "type": {
-                "value": "Physics2::ApplyForce"
-              },
-              "parameters": [
-                "Ball",
-                "Physics2",
-                "50",
-                "-50",
-                "Player.X()",
-                "Player.Y()"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Ball",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Up"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Down"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyForce"
+                  },
+                  "parameters": [
+                    "Ball",
+                    "Physics2",
+                    "50",
+                    "-50",
+                    "Player.X()",
+                    "Player.Y()"
+                  ]
+                }
               ]
             }
           ]
@@ -1127,6 +1444,67 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NPC",
+                "Ball",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::Gravity"
+              },
+              "parameters": [
+                "NPC",
+                "PlatformerObject",
+                "=",
+                "1500"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NPC",
+                "Ball",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::Gravity"
+              },
+              "parameters": [
+                "NPC",
+                "PlatformerObject",
+                "=",
+                "1000"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -1711,12 +2089,44 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "RepeatEveryXSeconds::Repeat"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
+                    "Player",
+                    "Ball",
                     "",
-                    "\"MovementRand\"",
-                    "RandomInRange(1,5)",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "HuntingState",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Ball",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -2820,6 +3230,21 @@
                 "NPC.CenterX()",
                 "=",
                 "NPC.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Ball",
+                "GlobalVariableString(BallSkin)"
               ]
             }
           ]

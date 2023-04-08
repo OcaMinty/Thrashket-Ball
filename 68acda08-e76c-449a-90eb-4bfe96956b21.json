@@ -18,12 +18,12 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "AI Tribal Wilds",
+    "name": "Thrashket",
     "description": "",
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\Noah\\Downloads\\Ball",
+    "latestCompilationDirectory": "C:\\Users\\Noah\\OneDrive\\Documents\\Thrashket-GH-Page",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -120,7 +120,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite42.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite42.png\"}",
         "name": "NewSprite4",
         "smoothed": false,
         "userAdded": true
@@ -436,6 +436,117 @@
           "identifier": "https://project-resources.gdevelop.io/68acda08-e76c-449a-90eb-4bfe96956b21/resources/cd1b762e4a08924854ac330c273c9707320f0bc25ababf68492d137bc80ab04f-red.png",
           "name": "cloud-project-resource"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/Local.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\Local.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/.._.._.._.._Downloads_Local.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\..\\Downloads\\Local.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/.._.._.._.._Downloads_Local.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\..\\Downloads\\Local.png3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "globe.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"globe.png\",\"extension\":\".png\"}",
+        "name": "globe.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "globe - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "globe - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkbox_Blank Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "87cf337b0ea19f5405cb30c2d5d05304f350cf73adf304a97830fa0a5f0dc078_Checkbox_Blank Shadow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/87cf337b0ea19f5405cb30c2d5d05304f350cf73adf304a97830fa0a5f0dc078_Checkbox_Blank Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkbox_Checked Shadow.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Checkbox_Checked Shadow.png\",\"extension\":\".png\"}",
+        "name": "ac5bae7d897c62ce63262728ef4afd2ce90726f248d1b7abaca7120300cfa017_Checkbox_Checked Shadow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/ac5bae7d897c62ce63262728ef4afd2ce90726f248d1b7abaca7120300cfa017_Checkbox_Checked Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e786f19060320e19fab4910f800b4b9b8503e72a642402a9bf2d701c10340dd4_Green arrow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/e786f19060320e19fab4910f800b4b9b8503e72a642402a9bf2d701c10340dd4_Green arrow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite122.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Default.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Default.png\",\"extension\":\".png\"}",
+        "name": "Default.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite22.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
