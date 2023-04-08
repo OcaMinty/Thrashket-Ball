@@ -1,0 +1,469 @@
+{
+  "firstLayout": "Title Screen",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "af71a9b1-27d2-4edf-aa9f-e71149d34346",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "AI Tribal Wilds",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "C:\\Users\\Noah\\Downloads\\Ball",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite82.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/68acda08-e76c-449a-90eb-4bfe96956b21/resources/d709d228cc5502634e31f1b1e360e081ee99caa7dae50bcba5c8382171b42f59-Idle.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow Key_Right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f05350dd2750fd1fdcd279f7fb7bd2fa980165ed9816391d885fc57e28189d2c_Arrow Key_Right.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/f05350dd2750fd1fdcd279f7fb7bd2fa980165ed9816391d885fc57e28189d2c_Arrow Key_Right.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow Key_Left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6e91d466fa9c499770ed63a04843a82e5b1a2a78d786478017540773f48dd8c3_Arrow Key_Left.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6e91d466fa9c499770ed63a04843a82e5b1a2a78d786478017540773f48dd8c3_Arrow Key_Left.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite102.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/68acda08-e76c-449a-90eb-4bfe96956b21/resources/bcba373003bcde7ff76ffac219389bdbba21ada3e2b12b56a6d59960a7b7279a-NewSprite.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite - Copy.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite - Copy.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/68acda08-e76c-449a-90eb-4bfe96956b21/resources/bcba373003bcde7ff76ffac219389bdbba21ada3e2b12b56a6d59960a7b7279a-NewSprite - Copy.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Snowball.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Snowball.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/68acda08-e76c-449a-90eb-4bfe96956b21/resources/d8747e231983657a8a389a709bd13825a66fb9fa940c00edffcd9507146272d4-Snowball.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Snowball - Copy2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Snowball - Copy.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/68acda08-e76c-449a-90eb-4bfe96956b21/resources/d8747e231983657a8a389a709bd13825a66fb9fa940c00edffcd9507146272d4-Snowball - Copy.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Select2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Select",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lives.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lives.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/68acda08-e76c-449a-90eb-4bfe96956b21/resources/9a5f6d9dc722afcb6c6757ad87aff8694840feccbfa9cb05b5f25436d70c4a70-Lives.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lives - Copy.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lives - Copy.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/68acda08-e76c-449a-90eb-4bfe96956b21/resources/9a5f6d9dc722afcb6c6757ad87aff8694840feccbfa9cb05b5f25436d70c4a70-Lives - Copy.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Local.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Local.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/68acda08-e76c-449a-90eb-4bfe96956b21/resources/4042bf68382c17ea32021e2ee5051d5039c0e5ac70acc20087525487c481a6c0-Local.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_W2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e2ef0c658b38d6704d5015d04327cc43782c9d9c4191ceb55d157e7e59af755f_Letter Key_W.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e2ef0c658b38d6704d5015d04327cc43782c9d9c4191ceb55d157e7e59af755f_Letter Key_W.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_A2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fab55e23b1b9048245fe0840530f53b1489018173fc5e96193060879148477f5_Letter Key_A.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/fab55e23b1b9048245fe0840530f53b1489018173fc5e96193060879148477f5_Letter Key_A.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_S2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "92524d8bcb433f51ec698f961e60a5ccc573a95ab79a245a0be6f3077d76ee24_Letter Key_S.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/92524d8bcb433f51ec698f961e60a5ccc573a95ab79a245a0be6f3077d76ee24_Letter Key_S.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_D2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "524b409877511931e2aeb27a5c0e64c659a6d8116a2994eb2c6cb306f355a61d_Letter Key_D.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/524b409877511931e2aeb27a5c0e64c659a6d8116a2994eb2c6cb306f355a61d_Letter Key_D.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/red.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "red.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/68acda08-e76c-449a-90eb-4bfe96956b21/resources/cd1b762e4a08924854ac330c273c9707320f0bc25ababf68492d137bc80ab04f-red.png",
+          "name": "cloud-project-resource"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pvc"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/title-screen"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/choose"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
