@@ -547,6 +547,123 @@
         "name": "assets\\NewSprite22.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/Lives - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\Lives - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rand.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rand.png\",\"extension\":\".png\"}",
+        "name": "rand.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "randon.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"randon.png\",\"extension\":\".png\"}",
+        "name": "randon.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle9.png\"}",
+        "name": "Idle9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "reset.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"reset.png\",\"extension\":\".png\"}",
+        "name": "reset.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "reseti.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"reseti.png\",\"extension\":\".png\"}",
+        "name": "reseti.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "combo.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"combo.png\",\"extension\":\".png\"}",
+        "name": "combo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "comboi.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"comboi.png\",\"extension\":\".png\"}",
+        "name": "comboi.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ball.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ball",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

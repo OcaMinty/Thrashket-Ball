@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.47535850871269353,
+    "zoomFactor": 0.5800155239904864,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -48,7 +48,7 @@
       "persistentUuid": "b2b681f8-f71c-4e73-b59e-26e5ff39e8ea",
       "width": 0,
       "x": 1424,
-      "y": 736,
+      "y": 832,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,7 +63,7 @@
       "persistentUuid": "0d633c2c-7d83-442e-bab7-a082a5da4a2a",
       "width": 384,
       "x": 1024,
-      "y": 800,
+      "y": 896,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -197,8 +197,8 @@
       "name": "ClassicGamemode",
       "persistentUuid": "11477b29-d454-40cb-9288-17aaf670db93",
       "width": 0,
-      "x": 1424,
-      "y": 928,
+      "x": 32,
+      "y": 288,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -212,8 +212,8 @@
       "name": "LivesGamemode",
       "persistentUuid": "50cb4ad7-1ad3-40d3-a73b-df9866639461",
       "width": 0,
-      "x": 1008,
-      "y": 928,
+      "x": 448,
+      "y": 288,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -226,9 +226,9 @@
       "layer": "",
       "name": "GamemodeDescription",
       "persistentUuid": "3598d89d-a200-4e39-9e86-ded49f97b6ad",
-      "width": 480,
-      "x": 512,
-      "y": 992,
+      "width": 800,
+      "x": 32,
+      "y": 416,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -243,7 +243,7 @@
       "persistentUuid": "d92c3e9f-ed91-4bd6-919c-7639b9e13517",
       "width": 0,
       "x": 1424,
-      "y": 544,
+      "y": 640,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -257,8 +257,8 @@
       "name": "LocalConfirm",
       "persistentUuid": "7eb33adf-85f5-471e-b032-fc25572a17c8",
       "width": 0,
-      "x": 814,
-      "y": 608,
+      "x": 816,
+      "y": 704,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -410,6 +410,36 @@
       "x": 1504,
       "y": 96,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ScoringMode",
+      "persistentUuid": "50b4408c-a503-4ddb-b5f9-41f32b4d2ef4",
+      "width": 0,
+      "x": 64,
+      "y": 224,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ComboGamemode",
+      "persistentUuid": "b46ca799-fff3-4cf3-9c7f-1bdc513299e8",
+      "width": 0,
+      "x": 864,
+      "y": 288,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -740,13 +770,13 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
           "name": "Anchor",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 2,
-          "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -853,13 +883,13 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
           "name": "Anchor",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 2,
-          "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -958,6 +988,119 @@
     },
     {
       "assetStoreId": "",
+      "name": "ComboGamemode",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Idle10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "combo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "comboi.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "GamemodeDescription",
@@ -969,19 +1112,19 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
           "name": "Anchor",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 2,
-          "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
       "string": "Text",
       "font": "",
-      "textAlignment": "right",
+      "textAlignment": "left",
       "characterSize": 25,
       "color": {
         "b": 0,
@@ -1526,6 +1669,59 @@
     },
     {
       "assetStoreId": "",
+      "name": "EarthSkin",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "Solar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Default.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "TextBasketball",
@@ -1550,6 +1746,39 @@
       "string": "Basketball Skin",
       "font": "",
       "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ScoringMode",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Scoring Mode:",
+      "font": "",
+      "textAlignment": "left",
       "characterSize": 40,
       "color": {
         "b": 0,
@@ -2426,6 +2655,147 @@
                 "GamemodeDescription",
                 "=",
                 "\"Every time you score, you gain one life and the opponents lose one life! First to reach 0 lives loses.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Combo ",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ComboGamemode",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ComboGamemode",
+                "\"Hover\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ComboGamemode",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ComboGamemode",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ComboGamemode",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "Gamemode",
+                "=",
+                "\"Combo\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "Gamemode",
+                "=",
+                "\"Combo\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ComboGamemode",
+                "\"Select\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GamemodeDescription",
+                "=",
+                "\"Score 3 goals before your opponent scores 1 goal, to win!\""
               ]
             }
           ]
