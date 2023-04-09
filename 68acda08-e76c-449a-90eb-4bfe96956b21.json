@@ -660,89 +660,8 @@
         "alwaysLoaded": false,
         "file": "assets/Ball.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Ball.png\"}",
+        "metadata": "{\"extension\":\".png\"}",
         "name": "Ball",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Earth.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Earth.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image32.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image32.png\"}",
-        "name": "New image3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite13",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite14.png\"}",
-        "name": "NewSprite14",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Off.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Off",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Toggleon.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Toggleon.png\",\"extension\":\".png\"}",
-        "name": "Toggleon.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Toggleoff.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Toggleoff.png\",\"extension\":\".png\"}",
-        "name": "Toggleoff.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Invis.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Invis",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Invis.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Invis.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -764,10 +683,6 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/timeformatter"
-    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/choose"

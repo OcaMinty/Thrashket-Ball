@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6406912462476481,
+    "zoomFactor": 0.44485159988866513,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -251,12 +251,12 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 68,
+      "customSize": false,
+      "height": 0,
       "layer": "",
       "name": "PlayerScore",
       "persistentUuid": "ca6c99e3-5b67-4906-83d6-2f44e18581ef",
-      "width": 96,
+      "width": 0,
       "x": 192,
       "y": 448,
       "zOrder": 23,
@@ -266,12 +266,12 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 68,
+      "customSize": false,
+      "height": 0,
       "layer": "",
       "name": "NpcScore",
       "persistentUuid": "9cee8b59-d9f6-49b0-abbb-c97e1f728a59",
-      "width": 96,
+      "width": 0,
       "x": 416,
       "y": 448,
       "zOrder": 24,
@@ -289,7 +289,7 @@
       "width": 0,
       "x": 64,
       "y": 64,
-      "zOrder": 100,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -332,7 +332,7 @@
       "name": "Goal",
       "persistentUuid": "b1affa30-b434-4aa3-86d7-8ccb80150017",
       "width": 64,
-      "x": 1248,
+      "x": 1152,
       "y": 352,
       "zOrder": 28,
       "numberProperties": [],
@@ -470,36 +470,6 @@
       "x": 928,
       "y": 0,
       "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 64,
-      "layer": "",
-      "name": "Goal",
-      "persistentUuid": "14518c8b-9f22-4129-bdca-16362129e3c7",
-      "width": 64,
-      "x": 1152,
-      "y": 320,
-      "zOrder": 101,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 78,
-      "layer": "",
-      "name": "Timer",
-      "persistentUuid": "cbbca2cf-6693-4e3d-b6c7-b9cabf287b8b",
-      "width": 64,
-      "x": 64,
-      "y": 288,
-      "zOrder": 102,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -813,36 +783,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Invis",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Invis",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -1069,25 +1009,6 @@
         "color": "255;255;255",
         "debugMode": false,
         "texture": ""
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Timer",
-      "tags": "",
-      "type": "BBText::BBText",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "0",
-        "opacity": 255,
-        "fontSize": 60,
-        "visible": true,
-        "color": "255;255;255",
-        "fontFamily": "Arial",
-        "align": "center",
-        "wordWrap": true
       }
     }
   ],
@@ -3294,7 +3215,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Combo Gamemode",
+          "comment": "Rando Gamemode",
           "comment2": ""
         },
         {
@@ -3487,7 +3408,7 @@
                   "parameters": [
                     "PlayerScore",
                     ">=",
-                    "4"
+                    "3"
                   ]
                 }
               ],
@@ -3561,7 +3482,7 @@
                   "parameters": [
                     "NpcScore",
                     ">=",
-                    "4"
+                    "3"
                   ]
                 }
               ],
@@ -3621,318 +3542,6 @@
                     "",
                     "\"Title Screen\"",
                     ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Timer",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "TimerToggle",
-                "True"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Time\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Time\"",
-                    ">=",
-                    "180"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Variable(PlayerScore)",
-                    ">=",
-                    "Variable(NpcScore)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "TeamWon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "TeamWon",
-                    "=",
-                    "\"Red Team Wins!\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "PlatformerObject",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Title Screen\"",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Time\"",
-                    ">=",
-                    "180"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Variable(NpcScore)",
-                    ">=",
-                    "Variable(PlayerScore)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "TeamWon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "TeamWon",
-                    "=",
-                    "\"Green Team Wins!\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "PlatformerObject",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Title Screen\"",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Time\"",
-                    ">=",
-                    "120"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "Timer",
-                    "=",
-                    "TimeFormatter::SecondsToHHMMSS(TimerElapsedTime(\"Time\"))"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Time\"",
-                    ">=",
-                    "120"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "Timer",
-                    "=",
-                    "\"[outline=#E73C3C]\" + TimeFormatter::SecondsToHHMMSS(TimerElapsedTime(\"Time\")) + \"[/outline]\""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "TimerToggle",
-                "False"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Timer"
                   ]
                 }
               ]
