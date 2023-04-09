@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.44485159988866513,
+    "zoomFactor": 0.6406912462476486,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -251,14 +251,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 68,
       "layer": "",
       "name": "PlayerScore",
       "persistentUuid": "ca6c99e3-5b67-4906-83d6-2f44e18581ef",
-      "width": 0,
-      "x": 192,
-      "y": 448,
+      "width": 96,
+      "x": 160,
+      "y": 444,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -266,13 +266,13 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 68,
       "layer": "",
       "name": "NpcScore",
       "persistentUuid": "9cee8b59-d9f6-49b0-abbb-c97e1f728a59",
-      "width": 0,
-      "x": 416,
+      "width": 96,
+      "x": 480,
       "y": 448,
       "zOrder": 24,
       "numberProperties": [],
@@ -302,8 +302,8 @@
       "name": "PlayerLight",
       "persistentUuid": "eaf381c3-de4d-48d5-abdb-9b1a1b5060a6",
       "width": 0,
-      "x": 448,
-      "y": 672,
+      "x": 376,
+      "y": 712,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -470,6 +470,36 @@
       "x": 928,
       "y": 0,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Goal",
+      "persistentUuid": "f00615cb-057f-4c4c-b6a6-969c877376ab",
+      "width": 64,
+      "x": 1248,
+      "y": 384,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 46,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "d89b1bae-08a4-4c97-8cd0-7137fdf03c99",
+      "width": 352,
+      "x": 160,
+      "y": 416,
+      "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -700,7 +730,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Default.png",
+                  "image": "assets\\Solari.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -944,7 +974,7 @@
         "visible": true,
         "color": "255;255;255",
         "fontFamily": "Arial",
-        "align": "center",
+        "align": "right",
         "wordWrap": true
       }
     },
@@ -1009,6 +1039,28 @@
         "color": "255;255;255",
         "debugMode": false,
         "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Timer",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0\n",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     }
   ],
@@ -2483,7 +2535,19 @@
               "parameters": [
                 "PlayerScore",
                 "=",
-                "\"[outline=#E73C3C]\" + ToString(Variable(PlayerScore)) + \"[/outline]\""
+                "\"[outline=#E73C3C]\" + ToString(Variable(PlayerScore)) + \"[/outline]\" + NewLine()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "PlayerScore",
+                "=",
+                "Timer.BoundingBoxLeft()",
+                "=",
+                "Timer.Y()"
               ]
             }
           ]
@@ -2499,7 +2563,19 @@
               "parameters": [
                 "NpcScore",
                 "=",
-                "\"[outline=#3CE776]\" + ToString(Variable(NpcScore)) + \"[/outline]\""
+                "\"[outline=#3CE776]\" + ToString(Variable(NpcScore)) + \"[/outline]\" + NewLine()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "NpcScore",
+                "=",
+                "Timer.BoundingBoxRight() - 30",
+                "=",
+                "Timer.Y()"
               ]
             }
           ]
@@ -3408,7 +3484,7 @@
                   "parameters": [
                     "PlayerScore",
                     ">=",
-                    "3"
+                    "4"
                   ]
                 }
               ],
@@ -3482,7 +3558,247 @@
                   "parameters": [
                     "NpcScore",
                     ">=",
-                    "3"
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TeamWon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TeamWon",
+                    "=",
+                    "\"Green Team Wins!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "PlatformerObject",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Title Screen\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Timer",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "TimerToggle",
+                "True"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Time\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Timer",
+                    "=",
+                    "TimeFormatter::SecondsToHHMMSS(TimerElapsedTime(\"Time\"))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Time\"",
+                    ">=",
+                    "180"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Variable(PlayerScore)",
+                    ">",
+                    "Variable(NpcScore)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TeamWon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TeamWon",
+                    "=",
+                    "\"Red Team Wins!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "PlatformerObject",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Title Screen\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Time\"",
+                    ">=",
+                    "180"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Variable(NpcScore)",
+                    ">",
+                    "Variable(PlayerScore)"
                   ]
                 }
               ],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5800155239904864,
+    "zoomFactor": 0.4598521426736335,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -48,7 +48,7 @@
       "persistentUuid": "b2b681f8-f71c-4e73-b59e-26e5ff39e8ea",
       "width": 0,
       "x": 1424,
-      "y": 832,
+      "y": 608,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,7 +63,7 @@
       "persistentUuid": "0d633c2c-7d83-442e-bab7-a082a5da4a2a",
       "width": 384,
       "x": 1024,
-      "y": 896,
+      "y": 672,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -197,8 +197,8 @@
       "name": "ClassicGamemode",
       "persistentUuid": "11477b29-d454-40cb-9288-17aaf670db93",
       "width": 0,
-      "x": 32,
-      "y": 288,
+      "x": 656,
+      "y": 864,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -212,8 +212,8 @@
       "name": "LivesGamemode",
       "persistentUuid": "50cb4ad7-1ad3-40d3-a73b-df9866639461",
       "width": 0,
-      "x": 448,
-      "y": 288,
+      "x": 1072,
+      "y": 864,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -226,9 +226,9 @@
       "layer": "",
       "name": "GamemodeDescription",
       "persistentUuid": "3598d89d-a200-4e39-9e86-ded49f97b6ad",
-      "width": 800,
-      "x": 32,
-      "y": 416,
+      "width": 1184,
+      "x": 672,
+      "y": 992,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -243,7 +243,7 @@
       "persistentUuid": "d92c3e9f-ed91-4bd6-919c-7639b9e13517",
       "width": 0,
       "x": 1424,
-      "y": 640,
+      "y": 416,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -258,7 +258,7 @@
       "persistentUuid": "7eb33adf-85f5-471e-b032-fc25572a17c8",
       "width": 0,
       "x": 816,
-      "y": 704,
+      "y": 480,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -377,8 +377,8 @@
       "name": "BasketballSkin",
       "persistentUuid": "bc94bf3e-fd1f-47fc-b3de-6b5ec4ed9d7f",
       "width": 96,
-      "x": 1664,
-      "y": 96,
+      "x": 1440,
+      "y": 64,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -392,8 +392,8 @@
       "name": "TextBasketball",
       "persistentUuid": "475e35b3-ee7f-4c8f-8f76-234167381d28",
       "width": 0,
-      "x": 1504,
-      "y": 224,
+      "x": 1344,
+      "y": 192,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -407,8 +407,8 @@
       "name": "SolarSkin",
       "persistentUuid": "03739de0-a1ee-4f0a-b67e-035a32644fa3",
       "width": 96,
-      "x": 1504,
-      "y": 96,
+      "x": 1312,
+      "y": 64,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -422,8 +422,8 @@
       "name": "ScoringMode",
       "persistentUuid": "50b4408c-a503-4ddb-b5f9-41f32b4d2ef4",
       "width": 0,
-      "x": 64,
-      "y": 224,
+      "x": 1120,
+      "y": 786,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -437,9 +437,69 @@
       "name": "ComboGamemode",
       "persistentUuid": "b46ca799-fff3-4cf3-9c7f-1bdc513299e8",
       "width": 0,
-      "x": 864,
-      "y": 288,
+      "x": 1488,
+      "y": 864,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "TimerToggle",
+      "persistentUuid": "a97bdb6a-aab6-402d-bcd9-453000e6b4ac",
+      "width": 128,
+      "x": 32,
+      "y": 448,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 34,
+      "layer": "",
+      "name": "TimerText",
+      "persistentUuid": "e4cdcb92-d7bf-4471-b736-8c517bd2796b",
+      "width": 145,
+      "x": 192,
+      "y": 461,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "EarthSkin",
+      "persistentUuid": "587f2586-c689-4234-a08b-765def92dd57",
+      "width": 96,
+      "x": 1568,
+      "y": 64,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TimeDisclaimer",
+      "persistentUuid": "e60ba23e-311b-4a76-a25f-994387af8d17",
+      "width": 0,
+      "x": 64,
+      "y": 416,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -604,9 +664,9 @@
       "textAlignment": "right",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 74,
+        "g": 74,
+        "r": 74
       }
     },
     {
@@ -770,11 +830,11 @@
       "effects": [],
       "behaviors": [
         {
-          "bottomEdgeAnchor": 0,
-          "leftEdgeAnchor": 1,
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
           "name": "Anchor",
-          "rightEdgeAnchor": 0,
-          "topEdgeAnchor": 1,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
           "type": "AnchorBehavior::AnchorBehavior",
           "relativeToOriginalWindowSize": true,
           "useLegacyBottomAndRightAnchors": false
@@ -883,11 +943,11 @@
       "effects": [],
       "behaviors": [
         {
-          "bottomEdgeAnchor": 0,
-          "leftEdgeAnchor": 1,
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
           "name": "Anchor",
-          "rightEdgeAnchor": 0,
-          "topEdgeAnchor": 1,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
           "type": "AnchorBehavior::AnchorBehavior",
           "relativeToOriginalWindowSize": true,
           "useLegacyBottomAndRightAnchors": false
@@ -996,12 +1056,12 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
           "name": "Anchor",
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 0,
-          "leftEdgeAnchor": 1,
-          "rightEdgeAnchor": 0,
-          "topEdgeAnchor": 1,
           "relativeToOriginalWindowSize": true,
           "useLegacyBottomAndRightAnchors": false
         }
@@ -1112,19 +1172,19 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 1,
-          "type": "AnchorBehavior::AnchorBehavior",
           "relativeToOriginalWindowSize": true,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
       "string": "Text",
       "font": "",
-      "textAlignment": "left",
+      "textAlignment": "right",
       "characterSize": 25,
       "color": {
         "b": 0,
@@ -1243,9 +1303,9 @@
       "textAlignment": "right",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 74,
+        "g": 74,
+        "r": 74
       }
     },
     {
@@ -1572,13 +1632,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 0,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 1,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1636,7 +1696,7 @@
       ],
       "animations": [
         {
-          "name": "Solar",
+          "name": "Solari",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1646,7 +1706,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Default.png",
+                  "image": "Solari",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1733,13 +1793,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 0,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 1,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1766,13 +1826,13 @@
       "effects": [],
       "behaviors": [
         {
-          "bottomEdgeAnchor": 0,
-          "leftEdgeAnchor": 1,
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
           "name": "Anchor",
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 0,
-          "topEdgeAnchor": 1,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
           "type": "AnchorBehavior::AnchorBehavior",
+          "relativeToOriginalWindowSize": true,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1780,6 +1840,202 @@
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TimerToggle",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "On",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Toggleon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OnHover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Toggleon2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Toggleoff.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OffHover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Toggleoff2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "TimerText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Use Timer",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TimeDisclaimer",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "The game will automatically end after 3 minutes.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
@@ -2795,7 +3051,7 @@
               "parameters": [
                 "GamemodeDescription",
                 "=",
-                "\"Score 3 goals before your opponent scores 1 goal, to win!\""
+                "\"Score 4 goals before your opponent scores 1 goal, to win!\""
               ]
             }
           ]
@@ -3069,6 +3325,317 @@
               "parameters": [
                 "SolarSkin",
                 "\"39;39;39\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "EarthSkin",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "EarthSkin",
+                "\"63;63;63\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "EarthSkin",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "EarthSkin",
+                "\"255;255;255\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "EarthSkin",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "BallSkin",
+                "=",
+                "\"Earth\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "BallSkin",
+                "=",
+                "\"Earth\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "EarthSkin",
+                "\"39;39;39\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Timer",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TimerToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "TimerToggle",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TimerToggle",
+                "\"OnHover\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TimerToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "TimerToggle",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TimerToggle",
+                "\"On\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TimerToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "TimerToggle",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TimerToggle",
+                "\"OffHover\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TimerToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "TimerToggle",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TimerToggle",
+                "\"Off\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TimerToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "TimerToggle"
               ]
             }
           ]

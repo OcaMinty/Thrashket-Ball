@@ -664,6 +664,69 @@
         "name": "Ball",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Toggleon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggleon.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Toggleoff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggleoff.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/Toggleon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\Toggleon.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Toggleon2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Toggleon2.png\",\"extension\":\".png\"}",
+        "name": "Toggleon2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Toggleoff2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Toggleoff2.png\",\"extension\":\".png\"}",
+        "name": "Toggleoff2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Solari.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Solari",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Solari.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Solari.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -683,6 +746,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timeformatter"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/choose"
