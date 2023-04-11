@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6406912462476486,
+    "zoomFactor": 0.5800155239904867,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -253,7 +253,7 @@
       "angle": 0,
       "customSize": true,
       "height": 68,
-      "layer": "",
+      "layer": "AboveLight",
       "name": "PlayerScore",
       "persistentUuid": "ca6c99e3-5b67-4906-83d6-2f44e18581ef",
       "width": 96,
@@ -268,7 +268,7 @@
       "angle": 0,
       "customSize": true,
       "height": 68,
-      "layer": "",
+      "layer": "AboveLight",
       "name": "NpcScore",
       "persistentUuid": "9cee8b59-d9f6-49b0-abbb-c97e1f728a59",
       "width": 96,
@@ -283,43 +283,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "AboveLight",
       "name": "TeamWon",
       "persistentUuid": "073e9291-2278-4cea-a19a-1f68baed25d0",
       "width": 0,
       "x": 64,
       "y": 64,
       "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Lighting",
-      "name": "PlayerLight",
-      "persistentUuid": "eaf381c3-de4d-48d5-abdb-9b1a1b5060a6",
-      "width": 0,
-      "x": 376,
-      "y": 712,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Lighting",
-      "name": "NpcLight",
-      "persistentUuid": "dfc9a8cb-f67e-48dc-b990-1e613f689aa6",
-      "width": 0,
-      "x": 504,
-      "y": 712,
-      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -493,13 +463,43 @@
       "angle": 0,
       "customSize": true,
       "height": 46,
-      "layer": "",
+      "layer": "AboveLight",
       "name": "Timer",
       "persistentUuid": "d89b1bae-08a4-4c97-8cd0-7137fdf03c99",
       "width": 352,
       "x": 160,
       "y": 416,
       "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "PlayerLight",
+      "persistentUuid": "3315cf81-9760-46f2-bda6-ff5d8694c881",
+      "width": 0,
+      "x": 488,
+      "y": 792,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NpcLight",
+      "persistentUuid": "d95f0037-e413-45f7-85dc-42cd4b3beb87",
+      "width": 0,
+      "x": 344,
+      "y": 808,
+      "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -813,6 +813,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Gold",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Gold.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1013,36 +1042,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "PlayerLight",
-      "tags": "",
-      "type": "Lighting::LightObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "radius": 200,
-        "color": "255;255;255",
-        "debugMode": false,
-        "texture": ""
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "NpcLight",
-      "tags": "",
-      "type": "Lighting::LightObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "radius": 200,
-        "color": "255;255;255",
-        "debugMode": false,
-        "texture": ""
-      }
-    },
-    {
-      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "Timer",
@@ -1061,6 +1060,36 @@
         "b": 255,
         "g": 255,
         "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "PlayerLight",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 200,
+        "color": "231;60;60",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NpcLight",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 200,
+        "color": "60;231;118",
+        "debugMode": false,
+        "texture": ""
       }
     }
   ],
@@ -1266,36 +1295,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Ball",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::Gravity"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "1500"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "inverted": true,
                     "value": "CollisionNP"
                   },
@@ -1336,45 +1335,18 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Up"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Down"
-                      ]
-                    }
-                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "MettreXY"
+                    "value": "PlatformBehavior::Gravity"
                   },
                   "parameters": [
-                    "Ball",
+                    "Player",
+                    "PlatformerObject",
                     "=",
-                    "Player.X()",
-                    "=",
-                    "Player.Y() - 25"
+                    "1500"
                   ]
                 }
               ]
@@ -1384,63 +1356,204 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
-                    "Ball",
-                    "",
-                    "",
+                    "AutoToggle",
                     ""
                   ]
-                },
+                }
+              ],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "FlippedX"
-                  },
-                  "parameters": [
-                    "Player"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "KeyReleased"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
+                        "Player",
+                        "Ball",
                         "",
-                        "Up"
+                        "",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "KeyReleased"
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Up"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Down"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
                       },
                       "parameters": [
-                        "",
-                        "Down"
+                        "Ball",
+                        "=",
+                        "Player.X()",
+                        "=",
+                        "Player.Y() - 25"
                       ]
                     }
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
-                  "type": {
-                    "value": "Physics2::ApplyForce"
-                  },
-                  "parameters": [
-                    "Ball",
-                    "Physics2",
-                    "-50",
-                    "-50",
-                    "Player.X()",
-                    "Player.Y()"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Ball",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Player"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Up"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Down"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyForce"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "-50",
+                        "-50",
+                        "Player.X()",
+                        "Player.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Ball",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Player"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Up"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Down"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyForce"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "50",
+                        "-50",
+                        "Player.X()",
+                        "Player.Y()"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1450,64 +1563,95 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
-                    "Ball",
-                    "",
-                    "",
-                    ""
+                    "AutoToggle",
+                    "True"
                   ]
-                },
+                }
+              ],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "inverted": true,
-                    "value": "FlippedX"
-                  },
-                  "parameters": [
-                    "Player"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "KeyReleased"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
+                        "Player",
+                        "Ball",
                         "",
-                        "Up"
+                        "",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "KeyReleased"
+                        "value": "FlippedX"
                       },
                       "parameters": [
-                        "",
-                        "Down"
+                        "Player"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyForce"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "-50",
+                        "-50",
+                        "Player.X()",
+                        "Player.Y()"
                       ]
                     }
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
-                  "type": {
-                    "value": "Physics2::ApplyForce"
-                  },
-                  "parameters": [
-                    "Ball",
-                    "Physics2",
-                    "50",
-                    "-50",
-                    "Player.X()",
-                    "Player.Y()"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Ball",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Player"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyForce"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "50",
+                        "-50",
+                        "Player.X()",
+                        "Player.Y()"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1761,54 +1905,204 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "NPC",
-                    "Ball",
-                    "",
-                    "",
+                    "AutoToggle",
                     ""
                   ]
-                },
+                }
+              ],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
+                        "NPC",
+                        "Ball",
                         "",
-                        "w"
+                        "",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "w"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "s"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
                       },
                       "parameters": [
-                        "",
-                        "s"
+                        "Ball",
+                        "=",
+                        "NPC.X()",
+                        "=",
+                        "NPC.Y() - 25"
                       ]
                     }
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "Ball",
-                    "=",
-                    "NPC.X()",
-                    "=",
-                    "NPC.Y() - 25"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "Ball",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "NPC"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "w"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "s"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyForce"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "-50",
+                        "-50",
+                        "Player.X()",
+                        "Player.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "Ball",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "NPC"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "w"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "s"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyForce"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "50",
+                        "-50",
+                        "Player.X()",
+                        "Player.Y()"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1818,130 +2112,95 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "NPC",
-                    "Ball",
-                    "",
-                    "",
-                    ""
+                    "AutoToggle",
+                    "True"
                   ]
-                },
+                }
+              ],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "FlippedX"
-                  },
-                  "parameters": [
-                    "NPC"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "KeyReleased"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
+                        "NPC",
+                        "Ball",
                         "",
-                        "w"
+                        "",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "KeyReleased"
+                        "inverted": true,
+                        "value": "FlippedX"
                       },
                       "parameters": [
-                        "",
-                        "s"
+                        "NPC"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyForce"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "50",
+                        "-50",
+                        "Player.X()",
+                        "Player.Y()"
                       ]
                     }
                   ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Physics2::ApplyForce"
-                  },
-                  "parameters": [
-                    "Ball",
-                    "Physics2",
-                    "-50",
-                    "-50",
-                    "Player.X()",
-                    "Player.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "Ball",
-                    "",
-                    "",
-                    ""
-                  ]
                 },
                 {
-                  "type": {
-                    "inverted": true,
-                    "value": "FlippedX"
-                  },
-                  "parameters": [
-                    "NPC"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "KeyReleased"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
+                        "NPC",
+                        "Ball",
                         "",
-                        "w"
+                        "",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "KeyReleased"
+                        "value": "FlippedX"
                       },
                       "parameters": [
-                        "",
-                        "s"
+                        "NPC"
                       ]
                     }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Physics2::ApplyForce"
-                  },
-                  "parameters": [
-                    "Ball",
-                    "Physics2",
-                    "50",
-                    "-50",
-                    "Player.X()",
-                    "Player.Y()"
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyForce"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "-50",
+                        "-50",
+                        "Player.X()",
+                        "Player.Y()"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -2209,6 +2468,17 @@
                     "Ball",
                     "",
                     "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RepeatEveryXSeconds::Repeat"
+                  },
+                  "parameters": [
+                    "",
+                    "\"AI\"",
+                    "3",
                     ""
                   ]
                 }
@@ -2897,6 +3167,42 @@
                     "",
                     "\"Title Screen\"",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Variable(PlayerScore)",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Variable(NpcScore)",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GoldUnlocked",
+                    "True"
                   ]
                 }
               ]
@@ -3650,7 +3956,17 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Timer",
+                ""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3863,6 +4179,30 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "TimerToggle",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Timer"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -3899,7 +4239,7 @@
           "actions": [
             {
               "type": {
-                "value": "MettreXY"
+                "value": "SetCenter"
               },
               "parameters": [
                 "PlayerLight",
@@ -3911,7 +4251,7 @@
             },
             {
               "type": {
-                "value": "MettreXY"
+                "value": "SetCenter"
               },
               "parameters": [
                 "NpcLight",
@@ -3934,6 +4274,57 @@
               "parameters": [
                 "Ball",
                 "GlobalVariableString(BallSkin)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Ball",
+                "\"Gold\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Ball",
+                "\"AboveLight\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Ball",
+                "\"Gold\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Ball",
+                "\"\""
               ]
             }
           ]
@@ -3972,6 +4363,17 @@
       "followBaseLayerCamera": true,
       "isLightingLayer": true,
       "name": "Lighting",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 9107080,
+      "ambientLightColorG": 6068864,
+      "ambientLightColorR": 8708848,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "AboveLight",
       "visibility": true,
       "cameras": [],
       "effects": []

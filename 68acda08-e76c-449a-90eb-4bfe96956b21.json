@@ -75,7 +75,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite12.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite12.png\"}",
         "name": "NewSprite",
         "smoothed": false,
         "userAdded": true
@@ -93,7 +93,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite32.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite32.png\"}",
         "name": "NewSprite3",
         "smoothed": false,
         "userAdded": false
@@ -725,6 +725,33 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Solari.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Gold.png\"}",
+        "name": "Gold",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Gold.png",
         "smoothed": false,
         "userAdded": true
       }
