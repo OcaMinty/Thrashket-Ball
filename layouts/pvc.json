@@ -842,6 +842,36 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Invis",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Invis",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1359,7 +1389,7 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "AutoToggle",
+                    "AutoToggleRed",
                     ""
                   ]
                 }
@@ -1566,7 +1596,7 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "AutoToggle",
+                    "AutoToggleRed",
                     "True"
                   ]
                 }
@@ -1908,7 +1938,7 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "AutoToggle",
+                    "AutoToggleGreen",
                     ""
                   ]
                 }
@@ -2115,7 +2145,7 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "AutoToggle",
+                    "AutoToggleGreen",
                     "True"
                   ]
                 }
@@ -2460,6 +2490,32 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "HuntingState",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "inverted": true,
                     "value": "CollisionNP"
                   },
@@ -2493,6 +2549,15 @@
                     "HuntingState",
                     "=",
                     "RandomInRange(1,2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "PlatformerObject"
                   ]
                 }
               ]
