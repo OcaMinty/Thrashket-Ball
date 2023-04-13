@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4753585087126945,
+    "zoomFactor": 0.28905162031349274,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -78,7 +78,7 @@
       "persistentUuid": "4736148d-ea1b-4eff-b89b-323bed71204e",
       "width": 0,
       "x": 128,
-      "y": 896,
+      "y": 928,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -93,7 +93,7 @@
       "persistentUuid": "80ffa51e-270f-49c8-9e66-1cc443f363e5",
       "width": 0,
       "x": 32,
-      "y": 896,
+      "y": 928,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -108,7 +108,7 @@
       "persistentUuid": "3b0152e9-f7ef-484d-b0ea-96bf8b8eee80",
       "width": 0,
       "x": 32,
-      "y": 736,
+      "y": 800,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -123,7 +123,7 @@
       "persistentUuid": "9e780538-c13f-4235-b19a-a3235bc4d28b",
       "width": 0,
       "x": 32,
-      "y": 992,
+      "y": 1024,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -138,7 +138,7 @@
       "persistentUuid": "c3e7be48-f57f-472d-935a-8b99f39c14e6",
       "width": 0,
       "x": 32,
-      "y": 832,
+      "y": 894,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -153,7 +153,7 @@
       "persistentUuid": "3779d4d7-ff31-4539-bdd4-de59fbe62012",
       "width": 0,
       "x": 32,
-      "y": 576,
+      "y": 672,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -168,7 +168,7 @@
       "persistentUuid": "27edfccb-3925-44ab-a2d2-805337cf52ba",
       "width": 0,
       "x": 128,
-      "y": 576,
+      "y": 672,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -183,7 +183,7 @@
       "persistentUuid": "88d179c4-703d-4d0d-960e-248c4abbe435",
       "width": 0,
       "x": 32,
-      "y": 672,
+      "y": 768,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -272,8 +272,8 @@
       "name": "W",
       "persistentUuid": "813b34bb-0a84-4d7c-ab3a-c6668ef0e8a0",
       "width": 0,
-      "x": 288,
-      "y": 576,
+      "x": 284,
+      "y": 672,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -288,7 +288,7 @@
       "persistentUuid": "f9392cc4-87ab-4fe4-9241-d3f87456456f",
       "width": 0,
       "x": 288,
-      "y": 736,
+      "y": 800,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -303,7 +303,7 @@
       "persistentUuid": "46b16cd1-ef71-4473-84f9-cd2f47e888fe",
       "width": 0,
       "x": 288,
-      "y": 896,
+      "y": 928,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -318,7 +318,7 @@
       "persistentUuid": "d3ff3005-744e-4dc0-889a-e25b91529175",
       "width": 0,
       "x": 384,
-      "y": 576,
+      "y": 668,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -333,7 +333,7 @@
       "persistentUuid": "48a223da-4838-4e3b-b699-365a6b3b4836",
       "width": 0,
       "x": 384,
-      "y": 896,
+      "y": 928,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -342,13 +342,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 544,
+      "height": 448,
       "layer": "",
       "name": "Red",
       "persistentUuid": "36868114-1a72-4368-86a4-f0ed49823763",
       "width": 256,
       "x": 0,
-      "y": 544,
+      "y": 640,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -357,13 +357,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 544,
+      "height": 448,
       "layer": "",
       "name": "Green",
       "persistentUuid": "d5bb4ee4-f59e-4e3b-a283-421463f434cf",
       "width": 256,
       "x": 256,
-      "y": 544,
+      "y": 640,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -392,8 +392,8 @@
       "name": "TextBasketball",
       "persistentUuid": "475e35b3-ee7f-4c8f-8f76-234167381d28",
       "width": 0,
-      "x": 1400,
-      "y": 192,
+      "x": 1344,
+      "y": 178,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -468,7 +468,7 @@
       "persistentUuid": "e4cdcb92-d7bf-4471-b736-8c517bd2796b",
       "width": 145,
       "x": 192,
-      "y": 461,
+      "y": 462,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -498,7 +498,7 @@
       "persistentUuid": "e60ba23e-311b-4a76-a25f-994387af8d17",
       "width": 0,
       "x": 64,
-      "y": 422,
+      "y": 420,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -543,7 +543,7 @@
       "persistentUuid": "334d9c8b-0490-417c-af75-e54f6172a5a9",
       "width": 128,
       "x": 32,
-      "y": 339,
+      "y": 352,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -558,7 +558,7 @@
       "persistentUuid": "002313d3-7cb1-4be5-ac55-162714129587",
       "width": 0,
       "x": 64,
-      "y": 238,
+      "y": 256,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -573,7 +573,7 @@
       "persistentUuid": "663e7914-35fb-4d99-b59c-18ef7ef435a5",
       "width": 0,
       "x": 192,
-      "y": 351,
+      "y": 362,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -588,7 +588,7 @@
       "persistentUuid": "bde397a2-0fe8-4464-9ac1-1ea198b7efd0",
       "width": 128,
       "x": 32,
-      "y": 267,
+      "y": 283,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -603,7 +603,7 @@
       "persistentUuid": "b7508dde-44ad-4c82-85cc-8b66250a2ed9",
       "width": 0,
       "x": 192,
-      "y": 283,
+      "y": 297,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -635,6 +635,51 @@
       "x": 1184,
       "y": 32,
       "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "ComebackToggle",
+      "persistentUuid": "2ada854e-4d2e-4a2a-acb7-28d3bea9a452",
+      "width": 128,
+      "x": 32,
+      "y": 544,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ComebackText",
+      "persistentUuid": "779b6c52-0cd2-4f9f-8d8d-b1f513583d58",
+      "width": 0,
+      "x": 192,
+      "y": 558,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ComebackDisclaimer",
+      "persistentUuid": "23e6ee5d-a2eb-4f11-a15f-0a04ac585e5f",
+      "width": 0,
+      "x": 64,
+      "y": 516,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2034,13 +2079,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 0,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 1,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -2719,6 +2764,202 @@
         }
       ],
       "string": "Remove grabbing, and automatically throw instead.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ComebackToggle",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "On",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Toggleon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OnHover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Toggleon2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Toggleoff.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OffHover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Toggleoff2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ComebackText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Comeback",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ComebackDisclaimer",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Whoever is currently losing gains a speed boost.",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -5000,7 +5241,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "",
+          "comment": "Green",
           "comment2": ""
         },
         {
@@ -5204,6 +5445,224 @@
               },
               "parameters": [
                 "AutoToggleGreen"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Comeback",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ComebackToggle",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "\"OnHover\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "\"On\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "\"OffHover\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "\"Off\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ComebackToggle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ComebackToggle"
               ]
             }
           ]
