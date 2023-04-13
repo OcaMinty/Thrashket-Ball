@@ -1509,6 +1509,7 @@
       "effects": [],
       "behaviors": [
         {
+          "maxSpeed": 300,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -1522,7 +1523,6 @@
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
-          "maxSpeed": 250,
           "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
@@ -1827,6 +1827,7 @@
       "effects": [],
       "behaviors": [
         {
+          "maxSpeed": 300,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -1840,7 +1841,6 @@
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
-          "maxSpeed": 250,
           "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
@@ -2148,6 +2148,17 @@
                     "=",
                     "400"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "300"
+                  ]
                 }
               ]
             },
@@ -2175,6 +2186,17 @@
                     "PlatformerObject",
                     "=",
                     "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "PlatformerObject",
+                    "=",
+                    "300"
                   ]
                 }
               ]
