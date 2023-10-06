@@ -1192,7 +1192,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Map",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1231,6 +1230,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []
@@ -1836,6 +1840,17 @@
                     {
                       "type": {
                         "value": "Physics2::LinearVelocityY"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
                       },
                       "parameters": [
                         "Ball",
@@ -2747,6 +2762,17 @@
                     {
                       "type": {
                         "value": "Physics2::LinearVelocityY"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
                       },
                       "parameters": [
                         "Ball",

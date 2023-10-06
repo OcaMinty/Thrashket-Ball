@@ -25,9 +25,9 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\Noah\\OneDrive\\Documents\\Thrashket-GH-Page",
+    "latestCompilationDirectory": "C:\\Users\\Noah\\Downloads\\Thrashket-GH-Page",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 60,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
