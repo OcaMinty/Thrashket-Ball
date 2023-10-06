@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.34118560234736167,
+    "zoomFactor": 0.28905162031350634,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -215,12 +215,13 @@
     {
       "angle": 0,
       "customSize": true,
+      "depth": 1,
       "height": 46,
       "layer": "",
       "name": "GamemodeDescription",
       "persistentUuid": "3598d89d-a200-4e39-9e86-ded49f97b6ad",
-      "width": 1184,
-      "x": 672,
+      "width": 1248,
+      "x": 608,
       "y": 1016,
       "zOrder": 11,
       "numberProperties": [],
@@ -453,29 +454,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 2,
-      "height": 50,
-      "layer": "",
-      "name": "TimerToggle",
-      "persistentUuid": "a97bdb6a-aab6-402d-bcd9-453000e6b4ac",
-      "width": 100,
-      "x": 32,
-      "y": 416,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
+      "depth": 1,
       "height": 34,
       "layer": "",
       "name": "TimerText",
       "persistentUuid": "e4cdcb92-d7bf-4471-b736-8c517bd2796b",
-      "width": 145,
+      "width": 278,
       "x": 138,
-      "y": 423,
+      "y": 520,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -506,7 +492,7 @@
       "persistentUuid": "e60ba23e-311b-4a76-a25f-994387af8d17",
       "width": 0,
       "x": 64,
-      "y": 384,
+      "y": 480,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -661,7 +647,7 @@
       "persistentUuid": "2ada854e-4d2e-4a2a-acb7-28d3bea9a452",
       "width": 100,
       "x": 32,
-      "y": 512,
+      "y": 416,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -676,7 +662,7 @@
       "persistentUuid": "779b6c52-0cd2-4f9f-8d8d-b1f513583d58",
       "width": 0,
       "x": 138,
-      "y": 519,
+      "y": 424,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -691,7 +677,7 @@
       "persistentUuid": "23e6ee5d-a2eb-4f11-a15f-0a04ac585e5f",
       "width": 0,
       "x": 64,
-      "y": 480,
+      "y": 384,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -925,6 +911,22 @@
       "x": 64,
       "y": 32,
       "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 50,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "863e5b29-0b1c-4019-8259-fa1097d3fff0",
+      "width": 100,
+      "x": 32,
+      "y": 512,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2071,9 +2073,9 @@
       "effects": [],
       "behaviors": [
         {
-          "leftEdgeAnchor": 1,
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 1,
           "bottomEdgeAnchor": 2,
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
@@ -2125,9 +2127,9 @@
       "effects": [],
       "behaviors": [
         {
-          "leftEdgeAnchor": 1,
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 1,
           "bottomEdgeAnchor": 2,
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
@@ -2645,12 +2647,10 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "TimerToggle",
+      "name": "Timer",
       "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "type": "TextInput::TextInputObject",
       "variables": [],
       "effects": [],
       "behaviors": [
@@ -2665,126 +2665,21 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "animations": [
-        {
-          "name": "On",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\On.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "OnHover",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\OnHover.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Off",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\Off.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "OffHover",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\OffHover.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "content": {
+        "initialValue": "1",
+        "placeholder": "1",
+        "fontResourceName": "",
+        "fontSize": 30,
+        "inputType": "number",
+        "textColor": "255;255;255",
+        "fillColor": "255;255;255",
+        "fillOpacity": 0,
+        "borderColor": "0;0;0",
+        "borderOpacity": 255,
+        "borderWidth": 5,
+        "readOnly": false,
+        "disabled": false
+      }
     },
     {
       "assetStoreId": "",
@@ -2798,7 +2693,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Use Timer",
+      "string": "Timer (Seconds)",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -2831,7 +2726,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "The game will automatically end after 3 minutes.",
+      "string": "SECONDS it takes for the game to end automatically.",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -5737,221 +5632,6 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Timer"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "TimerToggle",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TimerToggle",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "TimerToggle",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "TimerToggle",
-                "\"OnHover\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TimerToggle",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "TimerToggle",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "TimerToggle",
-                "\"On\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TimerToggle",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "TimerToggle",
-                "False"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "TimerToggle",
-                "\"OffHover\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TimerToggle",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "TimerToggle",
-                "False"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "TimerToggle",
-                "\"Off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TimerToggle",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ToggleGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "TimerToggle"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
           "comment": "Auto"
         },
         {
@@ -7357,6 +7037,116 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Timer"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::Text"
+              },
+              "parameters": [
+                "Timer",
+                "=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "Timer",
+                "=",
+                "\"1\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "ToNumber(Timer.Text())",
+                "<",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "Timer",
+                "=",
+                "\"1\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "Timer",
+                "=",
+                "\"180\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TimerTime",
+                "=",
+                "ToNumber(Timer.Text())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []

@@ -1240,7 +1240,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2109,7 +2108,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "NPC",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2623,7 +2621,7 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "NPC",
+                            "GreenBar",
                             ""
                           ]
                         }
@@ -4855,230 +4853,21 @@
           "conditions": [
             {
               "type": {
-                "value": "GlobalVariableAsBoolean"
+                "value": "DepartScene"
               },
               "parameters": [
-                "TimerToggle",
-                "True"
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Montre"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "Timer",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Time\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Timer",
-                    "=",
-                    "TimeFormatter::SecondsToHHMMSS(TimerElapsedTime(\"Time\"))"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Time\"",
-                    ">=",
-                    "180"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Variable(PlayerScore)",
-                    ">",
-                    "Variable(NpcScore)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "TeamWon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "TeamWon",
-                    "=",
-                    "\"Red Team Wins!\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "PlatformerObject",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PopScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Time\"",
-                    ">=",
-                    "180"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Variable(NpcScore)",
-                    ">",
-                    "Variable(PlayerScore)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "TeamWon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "TeamWon",
-                    "=",
-                    "\"Green Team Wins!\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "PlatformerObject",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PopScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
+                "",
+                "\"Time\""
               ]
             }
           ]
@@ -5088,21 +4877,238 @@
           "conditions": [
             {
               "type": {
-                "value": "GlobalVariableAsBoolean"
+                "inverted": true,
+                "value": "CompareTimer"
               },
               "parameters": [
-                "TimerToggle",
-                "False"
+                "",
+                "\"Time\"",
+                ">=",
+                "GlobalVariable(TimerTime)"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Cache"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "Timer"
+                "Timer",
+                "\"255;255;255\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Timer",
+                "=",
+                "TimeFormatter::SecondsToHHMMSS(GlobalVariable(TimerTime) - TimerElapsedTime(\"Time\"))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Time\"",
+                ">=",
+                "GlobalVariable(TimerTime)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "Timer",
+                "\"208;2;27\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Timer",
+                "=",
+                "\"00:00\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Time\"",
+                ">=",
+                "GlobalVariable(TimerTime)"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(PlayerScore)",
+                ">",
+                "Variable(NpcScore)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TeamWon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TeamWon",
+                "=",
+                "\"Red Team Wins!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "NPC",
+                "PlatformerObject",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Time\"",
+                ">=",
+                "GlobalVariable(TimerTime)"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(NpcScore)",
+                ">",
+                "Variable(PlayerScore)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TeamWon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TeamWon",
+                "=",
+                "\"Green Team Wins!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "NPC",
+                "PlatformerObject",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
               ]
             }
           ]
