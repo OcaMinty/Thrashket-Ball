@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6622955665506702,
+    "zoomFactor": 0.34118560234736167,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -4520,7 +4520,7 @@
               "parameters": [
                 "GamemodeDescription",
                 "=",
-                "\"Each hoop you score nets you one point for your team. First to reach 10 points wins!\""
+                "\"Each hoop you score nets you one point for your team. First to reach \" + ToString(GlobalVariable(WinningScore)) + \" points wins!\""
               ]
             }
           ]
@@ -4800,7 +4800,7 @@
               "parameters": [
                 "GamemodeDescription",
                 "=",
-                "\"Score 4 goals before your opponent scores 1 goal, to win!\""
+                "\"Score \" + ToString(GlobalVariable(WinningScore)) + \" goals before your opponent scores 1 goal to win!\""
               ]
             }
           ]
