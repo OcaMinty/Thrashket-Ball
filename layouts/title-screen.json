@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.28905162031349274,
+    "zoomFactor": 0.6622955665506702,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,28 +26,14 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Title",
-      "persistentUuid": "267b0c4c-965a-45d2-81e6-9e84b74013c3",
-      "width": 0,
-      "x": 64,
-      "y": 64,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 150,
       "layer": "",
       "name": "VsCPU",
       "persistentUuid": "b2b681f8-f71c-4e73-b59e-26e5ff39e8ea",
-      "width": 0,
-      "x": 1424,
+      "width": 400,
+      "x": 1472,
       "y": 672,
       "zOrder": 2,
       "numberProperties": [],
@@ -62,7 +48,7 @@
       "name": "VsCpuConfirm",
       "persistentUuid": "0d633c2c-7d83-442e-bab7-a082a5da4a2a",
       "width": 384,
-      "x": 1024,
+      "x": 1056,
       "y": 736,
       "zOrder": 3,
       "numberProperties": [],
@@ -71,14 +57,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "ArrowControls",
       "persistentUuid": "4736148d-ea1b-4eff-b89b-323bed71204e",
-      "width": 0,
-      "x": 128,
-      "y": 928,
+      "width": 64,
+      "x": 96,
+      "y": 992,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -86,14 +73,15 @@
     },
     {
       "angle": 180,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "ArrowControls",
       "persistentUuid": "80ffa51e-270f-49c8-9e66-1cc443f363e5",
-      "width": 0,
+      "width": 64,
       "x": 32,
-      "y": 928,
+      "y": 992,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,14 +89,15 @@
     },
     {
       "angle": 270,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "ArrowControls",
       "persistentUuid": "3b0152e9-f7ef-484d-b0ea-96bf8b8eee80",
-      "width": 0,
+      "width": 64,
       "x": 32,
-      "y": 800,
+      "y": 880,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -123,7 +112,7 @@
       "persistentUuid": "9e780538-c13f-4235-b19a-a3235bc4d28b",
       "width": 0,
       "x": 32,
-      "y": 1024,
+      "y": 958,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -138,7 +127,7 @@
       "persistentUuid": "c3e7be48-f57f-472d-935a-8b99f39c14e6",
       "width": 0,
       "x": 32,
-      "y": 894,
+      "y": 846,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -146,14 +135,15 @@
     },
     {
       "angle": 270,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "ArrowControls",
       "persistentUuid": "3779d4d7-ff31-4539-bdd4-de59fbe62012",
-      "width": 0,
+      "width": 64,
       "x": 32,
-      "y": 672,
+      "y": 768,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -161,14 +151,15 @@
     },
     {
       "angle": 90,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "ArrowControls",
       "persistentUuid": "27edfccb-3925-44ab-a2d2-805337cf52ba",
-      "width": 0,
-      "x": 128,
-      "y": 672,
+      "width": 64,
+      "x": 96,
+      "y": 768,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -183,7 +174,7 @@
       "persistentUuid": "88d179c4-703d-4d0d-960e-248c4abbe435",
       "width": 0,
       "x": 32,
-      "y": 768,
+      "y": 734,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -191,13 +182,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
       "layer": "",
       "name": "ClassicGamemode",
       "persistentUuid": "11477b29-d454-40cb-9288-17aaf670db93",
-      "width": 0,
-      "x": 656,
+      "width": 400,
+      "x": 640,
       "y": 896,
       "zOrder": 9,
       "numberProperties": [],
@@ -206,13 +198,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
       "layer": "",
       "name": "LivesGamemode",
       "persistentUuid": "50cb4ad7-1ad3-40d3-a73b-df9866639461",
-      "width": 0,
-      "x": 1072,
+      "width": 400,
+      "x": 1056,
       "y": 896,
       "zOrder": 10,
       "numberProperties": [],
@@ -228,7 +221,7 @@
       "persistentUuid": "3598d89d-a200-4e39-9e86-ded49f97b6ad",
       "width": 1184,
       "x": 672,
-      "y": 1024,
+      "y": 1016,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -236,13 +229,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 150,
       "layer": "",
       "name": "Local",
       "persistentUuid": "d92c3e9f-ed91-4bd6-919c-7639b9e13517",
-      "width": 0,
-      "x": 1424,
+      "width": 400,
+      "x": 1472,
       "y": 480,
       "zOrder": 12,
       "numberProperties": [],
@@ -257,7 +251,7 @@
       "name": "LocalConfirm",
       "persistentUuid": "7eb33adf-85f5-471e-b032-fc25572a17c8",
       "width": 0,
-      "x": 816,
+      "x": 848,
       "y": 544,
       "zOrder": 13,
       "numberProperties": [],
@@ -266,14 +260,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "W",
       "persistentUuid": "813b34bb-0a84-4d7c-ab3a-c6668ef0e8a0",
-      "width": 0,
-      "x": 284,
-      "y": 672,
+      "width": 64,
+      "x": 224,
+      "y": 768,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -281,14 +276,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "W",
       "persistentUuid": "f9392cc4-87ab-4fe4-9241-d3f87456456f",
-      "width": 0,
-      "x": 288,
-      "y": 800,
+      "width": 64,
+      "x": 224,
+      "y": 880,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -296,14 +292,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "A",
       "persistentUuid": "46b16cd1-ef71-4473-84f9-cd2f47e888fe",
-      "width": 0,
-      "x": 288,
-      "y": 928,
+      "width": 64,
+      "x": 224,
+      "y": 992,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -311,14 +308,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "S",
       "persistentUuid": "d3ff3005-744e-4dc0-889a-e25b91529175",
-      "width": 0,
-      "x": 384,
-      "y": 668,
+      "width": 64,
+      "x": 288,
+      "y": 768,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -326,14 +324,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "D",
       "persistentUuid": "48a223da-4838-4e3b-b699-365a6b3b4836",
-      "width": 0,
-      "x": 384,
-      "y": 928,
+      "width": 64,
+      "x": 288,
+      "y": 992,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -342,13 +341,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 448,
+      "depth": 1,
+      "height": 384,
       "layer": "",
       "name": "Red",
       "persistentUuid": "36868114-1a72-4368-86a4-f0ed49823763",
-      "width": 256,
+      "width": 192,
       "x": 0,
-      "y": 640,
+      "y": 704,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -357,13 +357,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 448,
+      "depth": 1,
+      "height": 384,
       "layer": "",
       "name": "Green",
       "persistentUuid": "d5bb4ee4-f59e-4e3b-a283-421463f434cf",
-      "width": 256,
-      "x": 256,
-      "y": 640,
+      "width": 192,
+      "x": 192,
+      "y": 704,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -372,12 +373,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
+      "depth": 0,
+      "height": 100,
       "layer": "",
       "name": "BasketballSkin",
       "persistentUuid": "bc94bf3e-fd1f-47fc-b3de-6b5ec4ed9d7f",
-      "width": 96,
-      "x": 1440,
+      "width": 100,
+      "x": 1536,
       "y": 64,
       "zOrder": 18,
       "numberProperties": [],
@@ -386,13 +388,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 46,
       "layer": "",
       "name": "TextBasketball",
       "persistentUuid": "475e35b3-ee7f-4c8f-8f76-234167381d28",
-      "width": 0,
-      "x": 1344,
+      "width": 288,
+      "x": 1376,
       "y": 178,
       "zOrder": 19,
       "numberProperties": [],
@@ -402,12 +405,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
+      "depth": 0,
+      "height": 100,
       "layer": "",
       "name": "SolarSkin",
       "persistentUuid": "03739de0-a1ee-4f0a-b67e-035a32644fa3",
-      "width": 96,
-      "x": 1312,
+      "width": 100,
+      "x": 1408,
       "y": 64,
       "zOrder": 20,
       "numberProperties": [],
@@ -416,13 +420,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 46,
       "layer": "",
       "name": "ScoringMode",
       "persistentUuid": "50b4408c-a503-4ddb-b5f9-41f32b4d2ef4",
-      "width": 0,
-      "x": 1120,
+      "width": 288,
+      "x": 1114,
       "y": 832,
       "zOrder": 21,
       "numberProperties": [],
@@ -431,13 +436,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
       "layer": "",
       "name": "ComboGamemode",
       "persistentUuid": "b46ca799-fff3-4cf3-9c7f-1bdc513299e8",
-      "width": 0,
-      "x": 1488,
+      "width": 400,
+      "x": 1472,
       "y": 896,
       "zOrder": 22,
       "numberProperties": [],
@@ -447,13 +453,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "TimerToggle",
       "persistentUuid": "a97bdb6a-aab6-402d-bcd9-453000e6b4ac",
-      "width": 128,
+      "width": 100,
       "x": 32,
-      "y": 448,
+      "y": 416,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -467,8 +474,8 @@
       "name": "TimerText",
       "persistentUuid": "e4cdcb92-d7bf-4471-b736-8c517bd2796b",
       "width": 145,
-      "x": 192,
-      "y": 462,
+      "x": 138,
+      "y": 423,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -477,12 +484,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
+      "depth": 0,
+      "height": 100,
       "layer": "",
       "name": "EarthSkin",
       "persistentUuid": "587f2586-c689-4234-a08b-765def92dd57",
-      "width": 96,
-      "x": 1568,
+      "width": 100,
+      "x": 1664,
       "y": 64,
       "zOrder": 25,
       "numberProperties": [],
@@ -498,7 +506,7 @@
       "persistentUuid": "e60ba23e-311b-4a76-a25f-994387af8d17",
       "width": 0,
       "x": 64,
-      "y": 420,
+      "y": 384,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -512,7 +520,7 @@
       "name": "GoldSkin",
       "persistentUuid": "685992a2-f9b9-4d1d-a132-1094def71fac",
       "width": 96,
-      "x": 1696,
+      "x": 1792,
       "y": 64,
       "zOrder": 27,
       "numberProperties": [],
@@ -522,12 +530,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
+      "depth": 0,
+      "height": 100,
       "layer": "",
       "name": "Locked",
       "persistentUuid": "fc24fc27-0d9b-42cf-a27a-95bca572a6ab",
-      "width": 96,
-      "x": 1696,
+      "width": 100,
+      "x": 1792,
       "y": 64,
       "zOrder": 28,
       "numberProperties": [],
@@ -537,13 +546,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "AutoToggleRed",
       "persistentUuid": "334d9c8b-0490-417c-af75-e54f6172a5a9",
-      "width": 128,
+      "width": 100,
       "x": 32,
-      "y": 352,
+      "y": 96,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -558,7 +568,7 @@
       "persistentUuid": "002313d3-7cb1-4be5-ac55-162714129587",
       "width": 0,
       "x": 64,
-      "y": 256,
+      "y": 64,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -572,8 +582,8 @@
       "name": "AutoTextRed",
       "persistentUuid": "663e7914-35fb-4d99-b59c-18ef7ef435a5",
       "width": 0,
-      "x": 192,
-      "y": 362,
+      "x": 138,
+      "y": 105,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -582,13 +592,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "AutoToggleGreen",
       "persistentUuid": "bde397a2-0fe8-4464-9ac1-1ea198b7efd0",
-      "width": 128,
+      "width": 100,
       "x": 32,
-      "y": 283,
+      "y": 160,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -602,8 +613,8 @@
       "name": "AutoTextGreen",
       "persistentUuid": "b7508dde-44ad-4c82-85cc-8b66250a2ed9",
       "width": 0,
-      "x": 192,
-      "y": 297,
+      "x": 138,
+      "y": 167,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -612,12 +623,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
+      "depth": 0,
+      "height": 100,
       "layer": "",
       "name": "InvisSkin",
       "persistentUuid": "aaa50630-adc8-430b-8ec9-6d952d7aeeaf",
-      "width": 96,
-      "x": 1184,
+      "width": 100,
+      "x": 1152,
       "y": 64,
       "zOrder": 34,
       "numberProperties": [],
@@ -632,7 +644,7 @@
       "name": "InvisNote",
       "persistentUuid": "127aeb03-08b0-4f18-bceb-a06604478450",
       "width": 0,
-      "x": 1184,
+      "x": 1162,
       "y": 32,
       "zOrder": 35,
       "numberProperties": [],
@@ -642,13 +654,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "ComebackToggle",
       "persistentUuid": "2ada854e-4d2e-4a2a-acb7-28d3bea9a452",
-      "width": 128,
+      "width": 100,
       "x": 32,
-      "y": 544,
+      "y": 512,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -662,8 +675,8 @@
       "name": "ComebackText",
       "persistentUuid": "779b6c52-0cd2-4f9f-8d8d-b1f513583d58",
       "width": 0,
-      "x": 192,
-      "y": 558,
+      "x": 138,
+      "y": 519,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -678,8 +691,240 @@
       "persistentUuid": "23e6ee5d-a2eb-4f11-a15f-0a04ac585e5f",
       "width": 0,
       "x": 64,
-      "y": 516,
+      "y": 480,
       "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Movement",
+      "persistentUuid": "4527ee48-94ac-42c6-bde2-f7a7802d1258",
+      "width": 0,
+      "x": 224,
+      "y": 958,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Jump",
+      "persistentUuid": "603bf65a-83de-4bd4-8e81-cb51c8574096",
+      "width": 0,
+      "x": 224,
+      "y": 846,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Grab",
+      "persistentUuid": "48ee7ce9-fdf7-470e-91b6-83efbe7fd971",
+      "width": 0,
+      "x": 224,
+      "y": 734,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "SkullSkin",
+      "persistentUuid": "1bc10bcf-02d5-4eea-ae3b-ae769f281b2e",
+      "width": 100,
+      "x": 1280,
+      "y": 64,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ChargeDisclaimer",
+      "persistentUuid": "e4d4e330-1492-4802-95aa-1c143e72a8a9",
+      "width": 0,
+      "x": 64,
+      "y": 224,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 50,
+      "layer": "",
+      "name": "ChargeToggleRed",
+      "persistentUuid": "5300df0a-5db7-417b-96b5-42568ca7bc0a",
+      "width": 100,
+      "x": 32,
+      "y": 256,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ChargeTextRed",
+      "persistentUuid": "4afedb40-0eb2-4d80-baaa-c4c67806b20f",
+      "width": 0,
+      "x": 138,
+      "y": 263,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "layer": "",
+      "name": "ChargeToggleGreen",
+      "persistentUuid": "80be3b4b-2f17-45d5-8023-8638d4709358",
+      "width": 100,
+      "x": 32,
+      "y": 320,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ChargeTextGreen",
+      "persistentUuid": "5aa15037-93ae-49df-86bd-31884291ed9d",
+      "width": 0,
+      "x": 138,
+      "y": 327,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2592,
+      "layer": "",
+      "name": "Green2",
+      "persistentUuid": "56a7a95f-0504-4421-ba8a-7012c16a238e",
+      "width": 896,
+      "x": -320,
+      "y": -896,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2592,
+      "layer": "",
+      "name": "Green3",
+      "persistentUuid": "7092b0cd-fe7e-49b1-8d8f-ed590aa42510",
+      "width": 32,
+      "x": 576,
+      "y": -896,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 50,
+      "layer": "",
+      "name": "WinScore",
+      "persistentUuid": "d09b754f-d26b-4982-889b-97ee187ee312",
+      "width": 100,
+      "x": 32,
+      "y": 608,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WinningScoreText",
+      "persistentUuid": "f794e6fe-4332-47fd-aab7-f966d5cbf73a",
+      "width": 0,
+      "x": 138,
+      "y": 617,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WinScoreDisclaimer",
+      "persistentUuid": "5b7b9f56-e113-46d3-8a28-76b3cd19e715",
+      "width": 0,
+      "x": 64,
+      "y": 576,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 23,
+      "layer": "",
+      "name": "ChargeDisclaimerCPU",
+      "persistentUuid": "866e06e3-d0be-4b06-9d66-3eef75e2aa61",
+      "width": 448,
+      "x": 64,
+      "y": 32,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -687,6 +932,7 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Title",
       "tags": "",
@@ -734,6 +980,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "VsCPU",
       "tags": "",
@@ -760,12 +1007,12 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Idle\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":30,\\\"width\\\":80,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAeCAYAAAC7Q5mxAAAAAXNSR0IArs4c6QAAANhJREFUaEPt2sERgyAUhOFQRnqxGgqzGntJGWaIooEw8cGOHvD3zOLwuSee7sEjCbgsPUu73Se8uX0DgldXgI9dBASvDi+udkXA1zi0bdd56umn/IS/gOD9b0GGeAA4dl4p6/H8vtAOCF7KuyICaG1dvg7AVrk1ByCAooAYp4EAigJinAYCKAqIcRoIoCggxmkggKKAGKeBAIoCYpwGXg0Y3sed4KLedKEqfrBe44cXquHgzEXKn980VOq1OSedaxsqhf2ZDdcpJ4P1GAXRhlj8tcMWZVUi8AbwSnAf+yi7AQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAeCAYAAAC7Q5mxAAAAAXNSR0IArs4c6QAAAXJJREFUaEPtl+0OwiAMRbf3f2jNEk0mArenLVFn93f9PFyg7Ft9IQJ7yLuctwIYFEEBLIBBAkH3DAXeRA0qh/Jvw9N42fYv9ajgan2szc/yWGOcayHxVI9tfmWfBpA2PiqMxnk2YI2ngHwEYGbT3lgHyB4cCoTahxU4arhtxmtnVdZIiRQItV8CkDStQJPzradCCoTapwOMnjGkgZ6qIwtywCD53y5V1XzvFqYJlb36/6wh+0gYxUVMkPEjo7VhNQIpMBb/S1winkU4w/HewtZzV9UXEoQKnrGFlZI8AMlFo3r8O4DZQL4eoCpQ/VcKbv/TeNT+p8cYC0wKhNqnAxw9qXozVsbgqyBaZsXZBKCOiCUALWCynl4egJH6pvkQ7VMkz805UmpoCw26y6xvCcDR9pwly5rblAK9A7pLTC4nhxIz5zYrQLLIbg5uRwBR5VixhclLR9W3bAsTJVzWNkT/slRAYwUQwOqZFsACGCQQdL8D8QhYH7534IYAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"Idle11\"],\"name\":\"Idle\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite8",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite82.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -794,8 +1041,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "Idle.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Idle.png2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -850,6 +1097,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ArrowControls",
       "tags": "",
@@ -1001,6 +1249,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ClassicGamemode",
       "tags": "",
@@ -1114,6 +1363,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "LivesGamemode",
       "tags": "",
@@ -1227,6 +1477,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ComboGamemode",
       "tags": "",
@@ -1373,6 +1624,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Local",
       "tags": "",
@@ -1489,6 +1741,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "W",
       "tags": "",
@@ -1541,6 +1794,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "A",
       "tags": "",
@@ -1593,6 +1847,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "S",
       "tags": "",
@@ -1645,6 +1900,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "D",
       "tags": "",
@@ -1697,6 +1953,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Red",
       "tags": "",
@@ -1750,6 +2007,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Green",
       "tags": "",
@@ -1803,6 +2061,115 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Green2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Green3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BasketballSkin",
       "tags": "",
@@ -1855,6 +2222,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SolarSkin",
       "tags": "",
@@ -1908,6 +2276,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "EarthSkin",
       "tags": "",
@@ -1961,6 +2330,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "GoldSkin",
       "tags": "",
@@ -2014,6 +2384,61 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "SkullSkin",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "Skull",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Skull2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "InvisSkin",
       "tags": "",
@@ -2100,6 +2525,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Locked",
       "tags": "",
@@ -2219,6 +2645,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "TimerToggle",
       "tags": "",
@@ -2249,7 +2676,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleon.png",
+                  "image": "assets\\On.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2279,7 +2706,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleon2.png",
+                  "image": "assets\\OnHover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2308,7 +2735,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleoff.png",
+                  "image": "assets\\Off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2338,7 +2765,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleoff2.png",
+                  "image": "assets\\OffHover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2376,9 +2803,9 @@
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -2409,12 +2836,13 @@
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "AutoToggleRed",
       "tags": "",
@@ -2441,11 +2869,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleon.png",
+                  "image": "On",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2475,7 +2904,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleon2.png",
+                  "image": "OnHover",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2500,11 +2929,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleoff.png",
+                  "image": "Off",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2534,7 +2964,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleoff2.png",
+                  "image": "OffHover",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2572,12 +3002,13 @@
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "AutoToggleGreen",
       "tags": "",
@@ -2608,7 +3039,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleon.png",
+                  "image": "assets\\On.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2638,7 +3069,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleon2.png",
+                  "image": "assets\\OnHover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2667,7 +3098,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleoff.png",
+                  "image": "assets\\Off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2697,7 +3128,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleoff2.png",
+                  "image": "assets\\OffHover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2735,9 +3166,9 @@
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -2768,12 +3199,13 @@
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ComebackToggle",
       "tags": "",
@@ -2804,7 +3236,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleon.png",
+                  "image": "assets\\On.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2834,7 +3266,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleon2.png",
+                  "image": "assets\\OnHover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2863,7 +3295,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleoff.png",
+                  "image": "assets\\Off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2893,7 +3325,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Toggleoff2.png",
+                  "image": "assets\\OffHover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2931,9 +3363,9 @@
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -2964,9 +3396,493 @@
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "ChargeToggleRed",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "On",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\On.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OnHover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\OnHover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OffHover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\OffHover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ChargeTextRed",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Charge Throw (Red)",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "ChargeToggleGreen",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "On",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\On.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OnHover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\OnHover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OffHover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\OffHover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ChargeTextGreen",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Charge Throw (Green)",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ChargeDisclaimer",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "The longer you hold the ball, the farther you throw.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "ChargeDisclaimerCPU",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Throw modes do not work for the CPU.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
         "b": 0,
         "g": 0,
-        "r": 0
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "WinScore",
+      "tags": "",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {
+        "initialValue": "1",
+        "placeholder": "1",
+        "fontResourceName": "",
+        "fontSize": 30,
+        "inputType": "number",
+        "textColor": "255;255;255",
+        "fillColor": "255;255;255",
+        "fillOpacity": 0,
+        "borderColor": "0;0;0",
+        "borderOpacity": 255,
+        "borderWidth": 5,
+        "readOnly": false,
+        "disabled": false
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "WinningScoreText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Winning Score",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "WinScoreDisclaimer",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "The amount of points required to end/win the game.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     }
   ],
@@ -3142,8 +4058,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Vs CPU",
-          "comment2": ""
+          "comment": "Vs CPU"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3275,12 +4190,11 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"PvC\"",
-                ""
+                "\"PvC\""
               ]
             }
           ]
@@ -3295,8 +4209,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Local",
-          "comment2": ""
+          "comment": "Local"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3340,51 +4253,6 @@
               },
               "parameters": [
                 "LocalConfirm",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "W",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "A",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "S",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "D",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Green",
                 ""
               ]
             }
@@ -3433,46 +4301,6 @@
               "parameters": [
                 "LocalConfirm"
               ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "W"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "A"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "S"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "D"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Green"
-              ]
             }
           ]
         },
@@ -3513,12 +4341,11 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"PvC\"",
-                ""
+                "\"PvC\""
               ]
             }
           ]
@@ -3545,19 +4372,16 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Classic",
-          "comment2": ""
+          "comment": "Classic"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                ""
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -3711,8 +4535,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Lives",
-          "comment2": ""
+          "comment": "Lives"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3852,8 +4675,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Combo ",
-          "comment2": ""
+          "comment": "Combo "
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4000,11 +4822,9 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                ""
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -4030,8 +4850,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Default",
-          "comment2": ""
+          "comment": "Default"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4161,8 +4980,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Solar",
-          "comment2": ""
+          "comment": "Solar"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4292,8 +5110,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Earth",
-          "comment2": ""
+          "comment": "Earth"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4423,8 +5240,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Gold",
-          "comment2": ""
+          "comment": "Gold"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4649,8 +5465,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Invis",
-          "comment2": ""
+          "comment": "Invis"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4769,6 +5584,136 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Skull"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SkullSkin",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "SkullSkin",
+                "\"63;63;63\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SkullSkin",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "SkullSkin",
+                "\"255;255;255\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SkullSkin",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "BallSkin",
+                "=",
+                "\"Skull\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "BallSkin",
+                "=",
+                "\"Skull\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "SkullSkin",
+                "\"39;39;39\""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -4792,19 +5737,16 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Timer",
-          "comment2": ""
+          "comment": "Timer"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                ""
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -5010,8 +5952,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Auto",
-          "comment2": ""
+          "comment": "Auto"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -5023,19 +5964,16 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Red",
-          "comment2": ""
+          "comment": "Red"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                ""
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -5241,19 +6179,16 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Green",
-          "comment2": ""
+          "comment": "Green"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                ""
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -5459,19 +6394,16 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Comeback",
-          "comment2": ""
+          "comment": "Comeback"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                ""
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -5668,9 +6600,763 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Charge"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Red"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "\"OnHover\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "\"On\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "\"OffHover\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "\"Off\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleRed"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 33,
+            "g": 211,
+            "r": 126,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Green"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "\"OnHover\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "\"On\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "\"OffHover\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "\"Off\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleGreen"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 226,
+            "g": 144,
+            "r": 74,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "No dupe"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "AutoToggleRed",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "AutoToggleGreen",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleRed",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "AutoToggleRed",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ChargeToggleGreen",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "AutoToggleGreen",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Winning Score"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::Text"
+              },
+              "parameters": [
+                "WinScore",
+                "=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "WinScore",
+                "=",
+                "\"1\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "ToNumber(WinScore.Text())",
+                "<",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "WinScore",
+                "=",
+                "\"1\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "Gamemode",
+                "=",
+                "\"Classic\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "WinScore",
+                "=",
+                "\"10\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "Gamemode",
+                "=",
+                "\"Lives\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "WinScore",
+                "=",
+                "\"10\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "Gamemode",
+                "=",
+                "\"Combo\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "WinScore",
+                "=",
+                "\"4\""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "WinningScore",
+                "=",
+                "ToNumber(WinScore.Text())"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -5681,9 +7367,14 @@
       "ambientLightColorB": 0,
       "ambientLightColorG": 0,
       "ambientLightColorR": 0,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "",
+      "renderingType": "",
       "visibility": true,
       "cameras": [
         {
@@ -5704,6 +7395,30 @@
     {
       "name": "Anchor",
       "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
     },
     {
       "name": "Tween",
