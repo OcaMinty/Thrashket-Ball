@@ -770,7 +770,7 @@
         "alwaysLoaded": false,
         "file": "assets/Gold2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Gold2.png\"}",
         "name": "Gold2",
         "smoothed": false,
         "userAdded": false
@@ -1033,6 +1033,145 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Skull2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Normal.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Blank Normal.png\",\"extension\":\".png\"}",
+        "name": "44ad7e37a9e344bd1b2dbf39326c145dfe5eaf769fdac4187d514e011b906ad2_Blank Normal.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/Blanks/44ad7e37a9e344bd1b2dbf39326c145dfe5eaf769fdac4187d514e011b906ad2_Blank Normal.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Normal.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Blank Normal.png\",\"extension\":\".png\"}",
+        "name": "assets\\Blank Normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/red.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "red",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/red2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "red2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/green.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "green",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite112.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite112.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/red.png2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\red.png2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite23.png\"}",
+        "name": "NewSprite22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Solar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Solar",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Solar2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Solar2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Solar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Solar2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite24",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite25",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite26",
         "smoothed": false,
         "userAdded": true
       }

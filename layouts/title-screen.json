@@ -18,10 +18,36 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3645833333333522,
+    "zoomFactor": 0.36458333333335263,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "GreenGroup",
+      "objects": [
+        {
+          "name": "W"
+        },
+        {
+          "name": "A"
+        },
+        {
+          "name": "S"
+        },
+        {
+          "name": "D"
+        }
+      ]
+    },
+    {
+      "name": "RedGroup",
+      "objects": [
+        {
+          "name": "ArrowControls"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -64,7 +90,7 @@
       "name": "ArrowControls",
       "persistentUuid": "4736148d-ea1b-4eff-b89b-323bed71204e",
       "width": 64,
-      "x": 96,
+      "x": 128,
       "y": 992,
       "zOrder": 4,
       "numberProperties": [],
@@ -80,7 +106,7 @@
       "name": "ArrowControls",
       "persistentUuid": "80ffa51e-270f-49c8-9e66-1cc443f363e5",
       "width": 64,
-      "x": 32,
+      "x": 64,
       "y": 992,
       "zOrder": 5,
       "numberProperties": [],
@@ -96,7 +122,7 @@
       "name": "ArrowControls",
       "persistentUuid": "3b0152e9-f7ef-484d-b0ea-96bf8b8eee80",
       "width": 64,
-      "x": 32,
+      "x": 64,
       "y": 880,
       "zOrder": 4,
       "numberProperties": [],
@@ -111,7 +137,7 @@
       "name": "Movement",
       "persistentUuid": "9e780538-c13f-4235-b19a-a3235bc4d28b",
       "width": 0,
-      "x": 32,
+      "x": 64,
       "y": 958,
       "zOrder": 6,
       "numberProperties": [],
@@ -126,7 +152,7 @@
       "name": "Jump",
       "persistentUuid": "c3e7be48-f57f-472d-935a-8b99f39c14e6",
       "width": 0,
-      "x": 32,
+      "x": 64,
       "y": 846,
       "zOrder": 7,
       "numberProperties": [],
@@ -142,7 +168,7 @@
       "name": "ArrowControls",
       "persistentUuid": "3779d4d7-ff31-4539-bdd4-de59fbe62012",
       "width": 64,
-      "x": 32,
+      "x": 64,
       "y": 768,
       "zOrder": 4,
       "numberProperties": [],
@@ -158,7 +184,7 @@
       "name": "ArrowControls",
       "persistentUuid": "27edfccb-3925-44ab-a2d2-805337cf52ba",
       "width": 64,
-      "x": 96,
+      "x": 128,
       "y": 768,
       "zOrder": 4,
       "numberProperties": [],
@@ -173,7 +199,7 @@
       "name": "Grab",
       "persistentUuid": "88d179c4-703d-4d0d-960e-248c4abbe435",
       "width": 0,
-      "x": 32,
+      "x": 64,
       "y": 734,
       "zOrder": 8,
       "numberProperties": [],
@@ -268,7 +294,7 @@
       "name": "W",
       "persistentUuid": "813b34bb-0a84-4d7c-ab3a-c6668ef0e8a0",
       "width": 64,
-      "x": 224,
+      "x": 320,
       "y": 768,
       "zOrder": 14,
       "numberProperties": [],
@@ -284,7 +310,7 @@
       "name": "W",
       "persistentUuid": "f9392cc4-87ab-4fe4-9241-d3f87456456f",
       "width": 64,
-      "x": 224,
+      "x": 320,
       "y": 880,
       "zOrder": 14,
       "numberProperties": [],
@@ -300,7 +326,7 @@
       "name": "A",
       "persistentUuid": "46b16cd1-ef71-4473-84f9-cd2f47e888fe",
       "width": 64,
-      "x": 224,
+      "x": 320,
       "y": 992,
       "zOrder": 15,
       "numberProperties": [],
@@ -316,7 +342,7 @@
       "name": "S",
       "persistentUuid": "d3ff3005-744e-4dc0-889a-e25b91529175",
       "width": 64,
-      "x": 288,
+      "x": 384,
       "y": 768,
       "zOrder": 16,
       "numberProperties": [],
@@ -332,7 +358,7 @@
       "name": "D",
       "persistentUuid": "48a223da-4838-4e3b-b699-365a6b3b4836",
       "width": 64,
-      "x": 288,
+      "x": 384,
       "y": 992,
       "zOrder": 17,
       "numberProperties": [],
@@ -347,7 +373,7 @@
       "layer": "",
       "name": "Red",
       "persistentUuid": "36868114-1a72-4368-86a4-f0ed49823763",
-      "width": 192,
+      "width": 256,
       "x": 0,
       "y": 704,
       "zOrder": 0,
@@ -363,8 +389,8 @@
       "layer": "",
       "name": "Green",
       "persistentUuid": "d5bb4ee4-f59e-4e3b-a283-421463f434cf",
-      "width": 192,
-      "x": 192,
+      "width": 256,
+      "x": 256,
       "y": 704,
       "zOrder": 0,
       "numberProperties": [],
@@ -380,8 +406,8 @@
       "name": "BasketballSkin",
       "persistentUuid": "bc94bf3e-fd1f-47fc-b3de-6b5ec4ed9d7f",
       "width": 100,
-      "x": 1536,
-      "y": 64,
+      "x": 1664,
+      "y": 96,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -395,9 +421,9 @@
       "layer": "",
       "name": "TextBasketball",
       "persistentUuid": "475e35b3-ee7f-4c8f-8f76-234167381d28",
-      "width": 288,
-      "x": 1376,
-      "y": 178,
+      "width": 736,
+      "x": 1152,
+      "y": 32,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -413,7 +439,7 @@
       "persistentUuid": "03739de0-a1ee-4f0a-b67e-035a32644fa3",
       "width": 100,
       "x": 1408,
-      "y": 64,
+      "y": 96,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -476,8 +502,8 @@
       "name": "EarthSkin",
       "persistentUuid": "587f2586-c689-4234-a08b-765def92dd57",
       "width": 100,
-      "x": 1664,
-      "y": 64,
+      "x": 1536,
+      "y": 96,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -501,13 +527,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
+      "depth": 0,
+      "height": 100,
       "layer": "",
       "name": "GoldSkin",
       "persistentUuid": "685992a2-f9b9-4d1d-a132-1094def71fac",
-      "width": 96,
+      "width": 100,
       "x": 1792,
-      "y": 64,
+      "y": 96,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -523,7 +550,7 @@
       "persistentUuid": "fc24fc27-0d9b-42cf-a27a-95bca572a6ab",
       "width": 100,
       "x": 1792,
-      "y": 64,
+      "y": 96,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -616,23 +643,8 @@
       "persistentUuid": "aaa50630-adc8-430b-8ec9-6d952d7aeeaf",
       "width": 100,
       "x": 1152,
-      "y": 64,
+      "y": 96,
       "zOrder": 34,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "InvisNote",
-      "persistentUuid": "127aeb03-08b0-4f18-bceb-a06604478450",
-      "width": 0,
-      "x": 1162,
-      "y": 32,
-      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -691,7 +703,7 @@
       "name": "Movement",
       "persistentUuid": "4527ee48-94ac-42c6-bde2-f7a7802d1258",
       "width": 0,
-      "x": 224,
+      "x": 320,
       "y": 958,
       "zOrder": 6,
       "numberProperties": [],
@@ -706,7 +718,7 @@
       "name": "Jump",
       "persistentUuid": "603bf65a-83de-4bd4-8e81-cb51c8574096",
       "width": 0,
-      "x": 224,
+      "x": 320,
       "y": 846,
       "zOrder": 7,
       "numberProperties": [],
@@ -721,7 +733,7 @@
       "name": "Grab",
       "persistentUuid": "48ee7ce9-fdf7-470e-91b6-83efbe7fd971",
       "width": 0,
-      "x": 224,
+      "x": 320,
       "y": 734,
       "zOrder": 8,
       "numberProperties": [],
@@ -738,7 +750,7 @@
       "persistentUuid": "1bc10bcf-02d5-4eea-ae3b-ae769f281b2e",
       "width": 100,
       "x": 1280,
-      "y": 64,
+      "y": 96,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -902,22 +914,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 23,
-      "layer": "",
-      "name": "ChargeDisclaimerCPU",
-      "persistentUuid": "866e06e3-d0be-4b06-9d66-3eef75e2aa61",
-      "width": 448,
-      "x": 64,
-      "y": 32,
-      "zOrder": 49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 50,
       "layer": "",
@@ -927,6 +923,38 @@
       "x": 32,
       "y": 512,
       "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "SwapControls",
+      "persistentUuid": "e2f97e7e-2193-462d-a717-6f120275bb4b",
+      "width": 192,
+      "x": 160,
+      "y": 800,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 29,
+      "layer": "",
+      "name": "BallDescription",
+      "persistentUuid": "f1e52cb4-80d1-4e2a-a133-439dd12f8cb3",
+      "width": 736,
+      "x": 1152,
+      "y": 224,
+      "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1626,6 +1654,39 @@
       }
     },
     {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "BallDescription",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "right",
+      "characterSize": 25,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Local",
@@ -1755,9 +1816,9 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
+          "relativeToOriginalWindowSize": true,
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 1,
-          "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
@@ -2005,6 +2066,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\NewSprite112.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2042,6 +2132,35 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\red.png2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2310,7 +2429,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Default.png",
+                  "image": "Solar2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3779,6 +3898,141 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SwapControls",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 15,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "red",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "red2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 30
+                      },
+                      {
+                        "x": 72,
+                        "y": 30
+                      },
+                      {
+                        "x": 72,
+                        "y": 69
+                      },
+                      {
+                        "x": 28,
+                        "y": 69
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "green",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "green",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 30
+                      },
+                      {
+                        "x": 72,
+                        "y": 30
+                      },
+                      {
+                        "x": 72,
+                        "y": 69
+                      },
+                      {
+                        "x": 28,
+                        "y": 69
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -3939,6 +4193,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player modes",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4253,6 +4508,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Gamemodes",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4862,6 +5118,16 @@
                 "BasketballSkin",
                 "\"39;39;39\""
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "BallDescription",
+                "=",
+                "\"Default | Well balanced ball physics.\""
+              ]
             }
           ]
         },
@@ -4992,6 +5258,16 @@
                 "SolarSkin",
                 "\"39;39;39\""
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "BallDescription",
+                "=",
+                "\"Solari | More horizontal velocity than vertical.\""
+              ]
             }
           ]
         },
@@ -5121,6 +5397,16 @@
               "parameters": [
                 "EarthSkin",
                 "\"39;39;39\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "BallDescription",
+                "=",
+                "\"Boost-ball | More vertical velocity than horizontal.\""
               ]
             }
           ]
@@ -5287,6 +5573,16 @@
               "parameters": [
                 "GoldSkin",
                 "\"39;39;39\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "BallDescription",
+                "=",
+                "\"Gold | Aimbot, cheater!\""
               ]
             }
           ]
@@ -5477,6 +5773,16 @@
                 "InvisSkin",
                 "\"39;39;39\""
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "BallDescription",
+                "=",
+                "\"Invisible | The name says it all...\""
+              ]
             }
           ]
         },
@@ -5607,6 +5913,16 @@
                 "SkullSkin",
                 "\"39;39;39\""
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "BallDescription",
+                "=",
+                "\"Invisible | Floatier gravity.\""
+              ]
             }
           ]
         }
@@ -5618,6 +5934,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Settings",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7147,6 +7464,327 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Controls",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SwapControls",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectStringParameter"
+              },
+              "parameters": [
+                "SwapControls",
+                "Effect",
+                "\"Effect\"",
+                "\"color\"",
+                "\"255;255;255\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SwapControls",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectStringParameter"
+              },
+              "parameters": [
+                "SwapControls",
+                "Effect",
+                "\"Effect\"",
+                "\"color\"",
+                "\"0;0;0\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SwapControls",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Playerswap"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Playerswap",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "RedLeft",
+                "=",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "RedRight",
+                "=",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "RedDown",
+                "=",
+                "\"Down\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "RedUp",
+                "=",
+                "\"Up\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "GreenLeft",
+                "=",
+                "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "GreenRight",
+                "=",
+                "\"d\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "GreenDown",
+                "=",
+                "\"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "GreenUp",
+                "=",
+                "\"w\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Playerswap",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "RedLeft",
+                "=",
+                "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "RedRight",
+                "=",
+                "\"d\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "RedDown",
+                "=",
+                "\"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "RedUp",
+                "=",
+                "\"w\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "GreenLeft",
+                "=",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "GreenRight",
+                "=",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "GreenDown",
+                "=",
+                "\"Down\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "GreenUp",
+                "=",
+                "\"Up\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "GreenGroup",
+                "-",
+                "256"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "RedGroup",
+                "+",
+                "256"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
